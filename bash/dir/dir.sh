@@ -19,5 +19,9 @@ alias zzz='cd $getAlias/..'
 alias note='cd $getAlias/../story'
 alias app='cd $getAlias/app/'
 
-
 hosting=$getAlias/../hosting
+zzz=~/storage/external-1/.zzz/
+getAlias=~/storage/external-1/.zzz/web/
+
+
+

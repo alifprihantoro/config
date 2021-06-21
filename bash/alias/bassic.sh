@@ -1,5 +1,5 @@
 ## ======= bassic
-alias aliashelp='cat $getAlias/help.txt'
+alias aliashelp='cat $default_bash_dir/alias/help.txt'
 alias la='ls -a'
 alias lal='ls -al'
 alias ll='ls -l' 

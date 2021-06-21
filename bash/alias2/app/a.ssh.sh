@@ -1,0 +1,1 @@
+alias hssh='cat h.SSH.md'

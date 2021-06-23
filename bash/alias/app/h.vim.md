@@ -40,6 +40,8 @@
 - %s/yangdicari/diganti/g
 - cc normal mode = delete plus insert
 - zf = hide code
+- leader cc = block comment
+- leader c space = comment line
 
 ## NerdThree
 - t = open file on new tab

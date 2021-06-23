@@ -23,7 +23,8 @@ Plug 'mattn/emmet-vim'
 " https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-
+" color
+Plug 'chrisbra/Colorizer'
 " vim color
 " NERD Tree - tree explorer
 " https://github.com/scrooloose/nerdtree
@@ -34,6 +35,9 @@ Plug 'scrooloose/nerdtree'
 " File Explorer with Icons
   Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/nerdtree' |
+            \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+            \ Plug 'ryanoasis/vim-devicons'
 
 " File Search
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }

@@ -1,9 +1,9 @@
-extern=~/storage/external-1
-zzz=$extern/.zzz
+de=~/storage/external-1
+zzz=$de/.zzz
 dm=$zzz/web/muryp # default dir alias
 dmi=$muryp/hosting/img/public
 dms=$muryp/hosting/script/public
 dc=$extern/config
-db=$config/bash
-dv=$config/nvim
-ssh=$extern/.ssh
+db=$dc/bash
+dv=$dc/nvim
+ssh=$de/.ssh

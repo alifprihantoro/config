@@ -29,7 +29,7 @@ nmap <Space><BS> V"_d
 nmap <Space>ra ggVG"_d
 " clipboard
 " paste
-nmap <Space>p "+p
+nmap <C-Space>p "+p
 " copy word
 nmap <C-Space>yw bve"+y
 " copy line

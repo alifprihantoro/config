@@ -39,6 +39,7 @@
 - :noh = rm highligh search
 - %s/yangdicari/diganti/g
 - cc normal mode = delete plus insert
+- zf = hide code
 
 ## NerdThree
 - t = open file on new tab

@@ -69,6 +69,9 @@ Plug 'Yggdroot/indentLine'
 "  Plug 'Rykka/clickable.vim'
 "  Plug 'Rykka/clickable-things'
 "  Plug 'dhruvasagar/vim-open-url'
+" 
+" comment
+Plug 'preservim/nerdcommenter'
   " -------------------------------------
 " Add plugins to &runtimepath
 call plug#end()

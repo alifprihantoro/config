@@ -1,4 +1,4 @@
-" if want use plug please uncomment
+"let g:NERDTreeGitStatusConcealBrackets = 1 " default: 0 if want use plug please uncomment
 "
 "
 
@@ -37,7 +37,6 @@ Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
-            \ Plug 'ryanoasis/vim-devicons'
 
 " File Search
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }

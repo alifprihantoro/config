@@ -6,7 +6,7 @@ alias dm='cd  $zzz/web/muryp/'
 alias dmi='cd  $imgMury'
 alias dms=i'cd $scriptMury'
 #lain
-alias local='cd ~/storage/shared/'
+alias dl='cd ~/storage/shared/'
 alias extern='cd ~/storage/external-1/'
 alias lab='cd $zzz/lab/'
 alias zzz='cd $zzz'

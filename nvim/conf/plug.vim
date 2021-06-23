@@ -1,10 +1,7 @@
-" this will install vim-plug if not installed
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-    silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
-        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd VimEnter * PlugInstall
-endif
-    
+" if want use plug please uncomment
+"
+"
+
 call plug#begin('~/.config/plugin')
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
 
@@ -15,7 +12,7 @@ Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 " these two plugins will add highlighting and indenting to JSX and TSX files.
 Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'maxmellon/vim-jsx-pretty'
+Plug 'maxmellon/vim-jsx-pretty' 
 " js snippet
 Plug 'grvcoelho/vim-javascript-snippets'
 
@@ -69,18 +66,12 @@ Plug 'Yggdroot/indentLine'
 "Plug 'tmux-plugins/vim-tmux-focus-events'
 " 
 " clickable
-  Plug 'Rykka/clickable.vim'
-  Plug 'Rykka/clickable-things'
-  Plug 'dhruvasagar/vim-open-url'
+"  Plug 'Rykka/clickable.vim'
+"  Plug 'Rykka/clickable-things'
+"  Plug 'dhruvasagar/vim-open-url'
   " -------------------------------------
 " Add plugins to &runtimepath
 call plug#end()
-
-
-
-
-
-
 
 " git gitgutter
 set updatetime=100

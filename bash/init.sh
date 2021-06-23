@@ -1,6 +1,6 @@
 ## source it from ~/.bashrc or ~/.bash_profile ##
 source ~/../usr/etc/profile.d/bash_completion.sh
-default_bash_dir=~/.config/bash
+default_bash_dir=~/storage/external-1/config/bash
 ## my alias
 source $default_bash_dir/theme.sh
 # dir

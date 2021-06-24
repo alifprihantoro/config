@@ -27,8 +27,8 @@ done'
 alias gu='
 echo "add ssh"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/github
-ssh-add ~/.ssh/gitlab
+ssh-add $de/.ssh/github
+ssh-add $de/.ssh/gitlab
 brnch=$(git symbolic-ref --short HEAD)
 echo "\\n\\n\\npush gitlab\\n\\n\\n"
 gp origin $brnch

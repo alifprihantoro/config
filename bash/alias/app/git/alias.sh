@@ -39,7 +39,7 @@ alias gra='gr add'
 alias grr='gr rm'
 alias grl='gr -v'
 # list one line
-alias grs='git remote show | paste -sd " " -)'
+alias grs='git remote show | paste -sd " "'
 # update repo
 # git add
 alias ga='git add'

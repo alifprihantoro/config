@@ -1,8 +1,8 @@
 # ===== Git bassic
 #help
-alias gha='cat $getAlias/backend/git/auto.md'
-alias ghf='cat $getAlias/backend/git/flow.md'
-alias ghb='cat $getAlias/backend/git/bassic.md'
+alias gha='cat $db/alias/app/git/auto.md'
+alias ghf='cat $db/alias/app/git/flow.md'
+alias ghb='cat $db/alias/app/git/bassic.md'
 alias ghall='gha && ghf && ghb'
 #init
 alias gi='git init'
@@ -51,5 +51,5 @@ alias gcm='git commit -am'
 alias guab='gp --all origin'
 ## git source other
 #source $getAlias/auto/git.sh # for auto git
-#source $getAlias/backend/git/gitflow.sh # for git flow
-#source $getAlias/backend/git/auto_suggest.sh # for auto git
+#source $db/alias/app/git/gitflow.sh # for git flow
+#source $db/alias/app/git/auto_suggest.sh # for auto git

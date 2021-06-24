@@ -10,4 +10,4 @@ hugo serve --minify : membuat server hugo dengan konvert
 add : menambah konten
 st : membuat server minify
 ===== alias Pribadi
-
+onmuryp

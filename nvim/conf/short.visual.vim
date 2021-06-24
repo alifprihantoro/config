@@ -17,7 +17,7 @@ vmap { di{<Esc>pi
 " complete <>
 vmap < di<<Esc>pi
 " complete ""
-vmap " di"<Esc>pi
+vmap <Space>" di"<Esc>pi
 " complete []
 vmap [ di[<Esc>pi
 " complete ''

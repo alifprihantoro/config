@@ -23,13 +23,13 @@ mv static .static
 rm config/_default/params.toml
 cp config/_default/.online config/_default/params.toml
 hugo --minify 
-rm  ../online/deploy-muryp/public
-mv public ../online/deploy-muryp/
+rm  ../deploy-muryp/public
+mv public ../deploy-muryp/
 mv .static static
 rm config/_default/params.toml
 cp config/_default/.offline config/_default/params.toml
-cd ../online/deploy-muryp/
-autounggah
+cd ../deploy-muryp/
+gsv
 '
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'

@@ -18,7 +18,10 @@ imap <C-Space>dl <Esc>Vdi
 
 " global shortcut
 " help
-imap <C-Space>? <Esc>:tabnew ~/.config/bash/alias/app/a.nvim.sh<CR>
+imap <C-Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR>
+imap <C-Space>hi <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/insert.mode.md<CR>
+imap <C-Space>hn <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/normal.mode.md<CR>
+imap <C-Space>hv <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/visual.mode.md<CR>
 " quit
 imap qq <Esc>:q
 imap <C-q> <Esc>:q!

@@ -2,7 +2,11 @@
 nmap ; :
 
 " global shortcut
-nmap <Space>? :tabnew ~/.config/bash/alias/app/a.nvim.sh<CR>
+" help
+nmap <Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR>
+nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/insert.mode.md<CR>
+nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/normal.mode.md<CR>
+nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/visual.mode.md<CR>
 " quit
 nmap qq :q
 nmap <C-q> :q!
@@ -18,6 +22,9 @@ nmap <Space>ya ggVGy
 nmap <Space>dw bved
 " cut all
 nmap <Space>da ggVGd
+" just delete
+nmap <BS> "_d
+nmap <Del> "_d
 " delete word before
 nmap <C-BS> bve"_d
 " delete word after

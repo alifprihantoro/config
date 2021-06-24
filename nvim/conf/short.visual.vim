@@ -13,7 +13,15 @@ vmap <Space>p "_d"+p
 " visual pelengkap 'visual cut'
 " paste
 " complete {}
+vmap { di{<Esc>pi
 " complete <>
+vmap < di<<Esc>pi
 " complete ""
+vmap " di"<Esc>pi
 " complete []
+vmap [ di[<Esc>pi
+" complete ''
+vmap ' di'<Esc>pi
+" complete ``
+vmap ` di`<Esc>pi
 " 

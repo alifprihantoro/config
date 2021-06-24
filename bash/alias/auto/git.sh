@@ -36,5 +36,5 @@ echo "\\n\\n\\npush github\\n\\n\\n"
 gp github $brnch
 '
 # commit with upload
-alias gup='gsv && gu'
+alias gsp='gsv && gu'
 ## auto config email username dll

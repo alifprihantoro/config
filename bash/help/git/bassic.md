@@ -36,3 +36,5 @@
 - glp : show log but pretty
 
 > for other command see on gha or ghf or ghall
+
+

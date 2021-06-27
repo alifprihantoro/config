@@ -49,10 +49,10 @@ set sidescroll=6
 
 " Make it easier to work with buffers
 " http://vim.wikia.com/wiki/Easier_buffer_switching
-set hidden
-set confirm
-set autowriteall
-set wildmenu wildmode=full
+" set hidden
+" set confirm
+" set autowriteall
+" set wildmenu wildmode=full
 
 " markdown
 " https://github.com/plasticboy/vim-markdown

@@ -23,7 +23,7 @@
 - k = arrow up
 - l = rrow right
 - h = arrow left
-- '' = for cursor before and now
+- ' = for cursor before and now
 - :map = for create shortcut
 - ctrl-d = next search
 - \` = firts bar
@@ -38,10 +38,31 @@
 - set name! = remove option
 - :noh = rm highligh search
 - %s/yangdicari/diganti/g
+- %s/yangdicari/diganti/gic
 - cc normal mode = delete plus insert
 - zf = hide code
 - leader cc = block comment
 - leader c space = comment line
+- ci' or ci" etc to rm 'remove it word'
+- <C-v> select press c for delete I(capital) for insert without delete
+- dat for delete tag with tag 
+- dit only childern
+- . use command before
+- / search next
+- ? search before
+- t## for search word on cursor
+- f or t for jump to symbol or var or numb
+- <C-d> scroll down
+- <C-u> scroll up
+-
+
+## Git
+- Ge: for git status/show commit
+
+
+
+
+
 
 ## NerdThree
 - t = open file on new tab

@@ -1,12 +1,16 @@
+augroup vimrc
+  au BufReadPre * setlocal foldmethod=indent
+  au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
+augroup END 
 " special normal
 nmap ; :
 
 " global shortcut
 " help
 nmap <Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR>
-nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/insert.mode.md<CR>
-nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/normal.mode.md<CR>
-nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/visual.mode.md<CR>
+nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR>
+nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR>
+nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR>
 " quit
 nmap qq :q
 nmap <C-q> :q!
@@ -14,26 +18,24 @@ nmap <C-q> :q!
 nmap <C-s> :w<CR>
 " save and quit
 nmap <Space>q :wq<CR>
-" copy word
-nmap <Space>yw bvey
 " copy all
-nmap <Space>ya ggVGy
-" cut word
-nmap <Space>dw bved
+nmap ya ggVGy
 " cut all
-nmap <Space>da ggVGd
+nmap da ggVGd
 " just delete
 nmap <BS> "_d
 nmap <Del> "_d
 " delete word before
-nmap <C-BS> bve"_d
+nmap <Space-BS> bve"_d
 " delete word after
-nmap <C-Del> evb"_d
+nmap <Space-Del> evb"_d
 " delete line
 nmap <Space><Del> V"_d
 nmap <Space><BS> V"_d
 " delete all
 nmap <Space>ra ggVG"_d
+" delete all
+nmap <C-Space>da ggVG"+d
 " clipboard
 " paste
 nmap <C-Space>p "+p
@@ -43,12 +45,6 @@ nmap <C-Space>yw bve"+y
 nmap <C-Space>yy bve"+y
 " copy all
 nmap <C-Space>ya ggVG"+y
-" cut word
-nmap <C-Space>dw bve"+d
-" cut line
-nmap <C-Space>dd bve"+d
-" cut all
-nmap <C-Space>da ggVG"+d
 " move one line up
 nmap <Space>p ddkP
 " move one line down
@@ -73,5 +69,5 @@ nmap <C-Space>h I<Esc>
 " last colom
 nmap <Space><Space>l A<Esc>
 nmap <C-Space>l A<Esc>
-" commet
-" 
+" comment
+nmap <Space>/ <Space>c<Space>

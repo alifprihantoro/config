@@ -24,4 +24,5 @@ vmap [ di[<Esc>pi
 vmap ' di'<Esc>pi
 " complete ``
 vmap ` di`<Esc>pi
-" 
+" comment
+vmap <Space>/ <Space>cc

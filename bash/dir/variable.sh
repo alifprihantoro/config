@@ -10,5 +10,5 @@ dm=$zzz/web/muryp # default dir muryp
 dmi=$dm/hosting/img/public # img
 dms=$dm/hosting/script/public # script
 dmt=$dm/theme/muryp # theme
-dmtp=$dmt/layouts/partial # partial
+dmtp=$dmt/layouts/partials # partial
 dmtps=$dmts/script # script theme

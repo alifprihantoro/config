@@ -1,9 +1,14 @@
 de=~/storage/external-1
 zzz=$de/.zzz
-dm=$zzz/web/muryp # default dir alias
-dmi=$muryp/hosting/img/public
-dms=$muryp/hosting/script/public
 dc=$de/config
 db=$dc/bash
 dv=$dc/nvim
 ssh=$de/.ssh
+
+# web muryp
+dm=$zzz/web/muryp # default dir muryp
+dmi=$dm/hosting/img/public # img
+dms=$dm/hosting/script/public # script
+dmt=$dm/theme/muryp # theme
+dmtp=$dmt/layout/partial # partial
+dmtps=$dmts/script # script theme

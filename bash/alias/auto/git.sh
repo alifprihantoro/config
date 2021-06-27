@@ -23,18 +23,24 @@ ga .
 gcm "$msg"
 break
 done'
-# git upload
-alias gu='
-echo "add ssh"
+# add ssh
+alias gssh='echo "add ssh"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
-ssh-add ~/.ssh/gitlab
-brnch=$(git symbolic-ref --short HEAD)
-echo "\\n\\n\\npush gitlab\\n\\n\\n"
-gp gitlab $brnch
-echo "\\n\\n\\npush github\\n\\n\\n"
-gp github $brnch
+ssh-add ~/.ssh/gitlab'
+# push all branch and remote
+alias guab='
+gssh
+git remote | xargs -L1 git push --all
 '
+# git upload
+alias gu='
+gssh
+brnch=$(git symbolic-ref --short HEAD)
+git remote | xargs -L1 -I R git push R $brnch'
 # commit with upload
 alias gsp='gsv && gu'
+
+
 ## auto config email username dll
+git config --global alias.pushall '!git remote | xargs -L1 git push --all'

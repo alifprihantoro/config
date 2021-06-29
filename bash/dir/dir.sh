@@ -8,6 +8,9 @@ alias dms='cd $dms' # script
 alias dmt='cd $dmt' # theme 
 alias dmtp='cd $dmtp' # partial
 alias dmtps='cd $dmtps' # script theme
+alias dmc='cd $dmc' # content
+alias dm.c='cd $dm.c' # config
+
 #lain
 alias dl='cd ~/storage/shared/'
 alias de='cd ~/storage/external-1/'

@@ -12,3 +12,5 @@ dms=$dm/hosting/script/public # script
 dmt=$dm/theme/muryp # theme
 dmtp=$dmt/layouts/partials # partial
 dmtps=$dmts/script # script theme
+dmc=$dmts/content # content
+dm.c=$dmts/config/_default/ # config

@@ -9,7 +9,7 @@ alias dmt='cd $dmt' # theme
 alias dmtp='cd $dmtp' # partial
 alias dmtps='cd $dmtps' # script theme
 alias dmc='cd $dmc' # content
-alias dm.c='cd $dm.c' # config
+alias dmk='cd $dmk' # config
 
 #lain
 alias dl='cd ~/storage/shared/'

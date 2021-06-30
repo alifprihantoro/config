@@ -29,7 +29,7 @@ statusCommit=$(git status -s)
 while [ "$statusCommit" != "" ]
 do 
 date=date
-msg="deploy on $date
+msg="Update on $(date)
 with change :
 $statusCommit"
 gcm "$msg"

@@ -13,8 +13,13 @@ alias addprojek='addcode && hugo new projek/'
 alias addocs='addcode && hugo new docs/'
 alias addblog='mury hugo new blog/'
 
-#render
-##langsung diunggah ke repo
+## static blog
+## api blog
+## api pages
+## images
+## script
+## NB : rm deploy-muryp
+## auto deploy all
 alias onmuryp='
 dm
 mv static .static

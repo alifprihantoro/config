@@ -36,13 +36,13 @@ dmk
 rm params.toml
 cp .offline params.toml
 dmd
-gua && gu
+gsva && gu
 dmtps
 cp css js $dms
 dms
-gua && gu
+gsva && gu
 dmi
-gua && gu
+gsva && gu
 '
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'

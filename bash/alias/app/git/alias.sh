@@ -9,7 +9,8 @@ alias gi='git init'
 ## menampilkan log
 #  gitlog='read -p "Type Your $gitlog : " gitlog'
 alias gl='git log'
-alias glp="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" # log pretty
+alias glp="gl --graph --pretty" # log pretty three
+alias glp2="gl --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" # log pretty 2
 
 ## back to the previous commit
 alias undo='git reset --hard HEAD^ && gl'

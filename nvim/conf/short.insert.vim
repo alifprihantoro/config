@@ -18,10 +18,10 @@ imap <C-Space>dl <Esc>Vdi
 
 " global shortcut
 " help
-imap <C-Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR>
-imap <C-Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR>
-imap <C-Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR>
-imap <C-Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR>
+imap <C-Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR><CR>
+imap <C-Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR><CR>
+imap <C-Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR><CR>
+imap <C-Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR><CR>
 " quit
 imap qq <Esc>:q
 imap <C-q> <Esc>:q!
@@ -70,9 +70,9 @@ imap <C-Space><Space>k <Esc>10k
 " scroll down
 imap <C-Space><Space>j <Esc>10j
 " firts colom
-imap <C-Space>h <Esc>I
+imap <C-Space><Space>h <Esc>I
 " last colom
-imap <C-Space>l <Esc>A
+imap <C-Space><Space>l <Esc>A
 " commet
 " 
 

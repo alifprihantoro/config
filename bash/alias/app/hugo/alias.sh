@@ -6,9 +6,7 @@ alias st='hugo server --minify'
 #alias Ganti='$getHugo/hugoTambah.sh' #all
 
 ## hugo add
-alias addmuryp='mury hugo new '
-alias addcode='code && hugo new '
-alias addlms='lms && hugo new '
+alias add='cd .. && hugo new && content'
 ## turunan
 alias addll='addlms && hugo new lms/'
 alias addprojek='addcode && hugo new projek/'
@@ -18,18 +16,33 @@ alias addblog='mury hugo new blog/'
 #render
 ##langsung diunggah ke repo
 alias onmuryp='
-muryp
+dm
 mv static .static
-rm config/_default/params.toml
-cp config/_default/.online config/_default/params.toml
+dmtpmh
+rm head.html
+cp .online head.html
+dmk
+rm params.toml
+cp .online params.toml
+dm
 hugo --minify 
-rm  ../deploy-muryp/public
-mv public ../deploy-muryp/
+rm  $dmd/public
+mv public $dmd
 mv .static static
-rm config/_default/params.toml
-cp config/_default/.offline config/_default/params.toml
-cd ../deploy-muryp/
-gsv
+dmtpmh
+rm head.html
+cp .offline head.html
+dmk
+rm params.toml
+cp .offline params.toml
+dmd
+gua && gu
+dmtps
+cp css js $dms
+dms
+gua && gu
+dmi
+gua && gu
 '
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'

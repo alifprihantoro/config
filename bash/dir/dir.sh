@@ -7,9 +7,11 @@ alias dmi='cd  $dmi' # img
 alias dms='cd $dms' # script
 alias dmt='cd $dmt' # theme 
 alias dmtp='cd $dmtp' # partial
+alias dmtpmh='cd $dmtpmh' # head
 alias dmtps='cd $dmtps' # script theme
 alias dmc='cd $dmc' # content
 alias dmk='cd $dmk' # config
+alias dmd='cd $dmd' # config
 
 #lain
 alias dl='cd ~/storage/shared/'

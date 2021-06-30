@@ -22,6 +22,19 @@ read -p "Your Message : " msg
 gcm "$msg"
 break
 done'
+# auto commit
+alias gsva='
+ga .
+statusCommit=$(git status -s)
+while [ "$statusCommit" != "" ]
+do 
+date=date
+msg="deploy on $date
+with change :
+$statusCommit"
+gcm "$msg"
+break
+done'
 # add ssh
 alias gssh='
 echo "add ssh"
@@ -40,19 +53,6 @@ brnch=$(git symbolic-ref --short HEAD)
 git remote | xargs -L1 -I R git push R $brnch'
 # commit with upload
 alias gsp='gsv && gu'
-# auto commit and push
-alias gsva='
-ga .
-statusCommit=$(git status -s)
-while [ "$statusCommit" != "" ]
-do 
-date=date
-msg="deploy on $date
-with change :
-$statusCommit"
-gcm "$msg"
-break
-done'
 
 ## auto config email username dll
 git config --global alias.pushall '!git remote | xargs -L1 git push --all'

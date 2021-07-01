@@ -45,10 +45,6 @@ nmap <C-Space>yw bve"+y
 nmap <C-Space>yy bve"+y
 " copy all
 nmap <C-Space>ya ggVG"+y
-" move one line up
-nmap <Space>p ddkP
-" move one line down
-nmap <Space>n ddjP
 " NERDTreeToggle
 nmap <C-t> :NERDTreeToggle<CR>
 " new tab
@@ -57,6 +53,10 @@ nmap <Space>tn :tabnew<CR>
 nmap <Space>k :tabnext<CR>
 " prev tab
 nmap <Space>j :tabprevious<CR>
+" firts tab
+nmap <Space>tf :tabfirst<CR>
+" last tab
+nmap <Space>tl :tablast<CR>
 " scroll up
 nmap <Space><Space>k 10k
 nmap <C-Space>k 10k
@@ -73,3 +73,20 @@ nmap <C-Space>l A<Esc>
 nmap <Space>/ <Space>c<Space>
 " fuzzy
 nmap <Space>f <Esc>:FZF<CR>
+" next
+nmap <Space>n :bn
+" prev
+nmap <Space>p :bp
+" new
+nmap <Space>bn :badd
+" firts
+nmap <Space>bf :bfirst
+" last
+nmap <Space>bl :blast
+
+
+" prev
+" move one line up
+" nmap <Space>p ddkP
+" " move one line down
+" nmap <Space>n ddjP

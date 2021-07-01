@@ -85,6 +85,8 @@ call plug#end()
 
 " git gitgutter
 set updatetime=100
+" fuzzy
+let g:fzf_layout = { 'window': '-tabnew' }
 
 " color for warning
 " -- Lua

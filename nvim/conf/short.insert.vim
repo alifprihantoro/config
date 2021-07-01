@@ -34,6 +34,7 @@ imap <C-Space>yw <Esc>bveyi
 " copy all
 imap <C-Space>ya <Esc>ggVGyi
 " cut word
+" 
 imap <C-Space>dw <Esc>bvedi
 " cut all
 imap <C-Space>da <Esc>ggVGdi
@@ -47,8 +48,8 @@ imap <C-Space>rl <Esc>V"_di
 imap <C-Space>ra <Esc>ggVG"_di
 " clipboard
 " paste
-imap <C-Space>p <Esc>"_P
-" copy line
+imap <C-Space><Space>p <Esc>"_P
+" copy linej
 imap <C-Space>yl <Esc>Vyi
 " copy all
 imap <C-Space>ya <Esc>ggVGyi
@@ -64,6 +65,10 @@ imap <C-Space>tn <Esc>:tabnew<CR>i
 imap <C-Space>k <Esc>:tabnext<CR>i
 " prev tab
 imap <C-Space>j <Esc>:tabprevious<CR>i
+" firts tab
+nmap <C-Space>tf <Esc>:tabfirst<CR>i
+" last tab
+nmap <C-Space>tl <Esc>:tablast<CR>i
 " visual pelengkap 'visual cut'
 " scroll up
 imap <C-Space><Space>k <Esc>10k
@@ -74,4 +79,18 @@ imap <C-Space><Space>h <Esc>I
 " last colom
 imap <C-Space><Space>l <Esc>A
 " fuzzy
-nmap <Space>f <Esc>:FZF<CR>
+imap <C-Space>f <Esc>:FZF<CR>
+" search
+imap <C-Space>/ <Esc>/
+imap <C-Space>? <Esc>?
+" next
+imap <C-Space>n <Esc>:bn<CR>
+" prev
+imap <C-Space>p <Esc>:bp<CR>
+" new
+imap <C-Space>bn <Esc>:badd<CR>
+" firts
+imap <C-Space>bf <Esc>:bfirst<CR>
+" last
+imap <C-Space>bl <Esc>:blast<CR>
+

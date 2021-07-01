@@ -1,18 +1,28 @@
 ## ====== My Direktori
 ### ubah sesuai direktori anda
+
 #web muryp blog
 alias dw='cd $dw' 
 alias mury='cd $zzz/web/muryp/ && '
 alias dm='cd  $zzz/web/muryp/'
-alias dmi='cd  $dmi' # img
-alias dms='cd $dms' # script
+# static
+alias dmsi='cd  $dmsi' # img
+alias dmss='cd $dmss' # script
+alias dmsp='cd $dmsp' # pages api
+alias dmsb='cd $dmsb' # blog api
+# theme
 alias dmt='cd $dmt' # theme 
 alias dmtp='cd $dmtp' # partial
 alias dmtpmh='cd $dmtpmh' # head
-alias dmtps='cd $dmtps' # script theme
+alias dmtps='cd $dmtps' # script
+# content
 alias dmc='cd $dmc' # content
+alias dmcb='cd $dmcb' # blog
+alias dmcl='cd $dmcl' # lms
+
 alias dmk='cd $dmk' # config
 alias dmd='cd $dmd' # deploy
+
 
 #lain
 alias dl='cd ~/storage/shared/'

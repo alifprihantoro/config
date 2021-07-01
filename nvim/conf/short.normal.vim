@@ -74,15 +74,21 @@ nmap <Space>/ <Space>c<Space>
 " fuzzy
 nmap <Space>f <Esc>:FZF<CR>
 " next
-nmap <Space>n :bn
+nmap <Space>n :bn<CR>
 " prev
-nmap <Space>p :bp
+nmap <Space>p :bp<CR>
 " new
-nmap <Space>bn :badd
+nmap <Space>bn :badd<CR>
 " firts
-nmap <Space>bf :bfirst
+nmap <Space>bf :bfirst<CR>
 " last
-nmap <Space>bl :blast
+nmap <Space>bl :blast<CR>
+" Git files
+nmap <Space>gf :GitFiles<CR>
+" Git log
+nmap <Space>gl :Gclog<CR>
+" Git Commit
+nmap <Space>gc :Gcommit<CR>
 
 
 " prev

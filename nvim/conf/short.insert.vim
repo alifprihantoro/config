@@ -84,9 +84,9 @@ imap <C-Space>f <Esc>:FZF<CR>
 imap <C-Space>/ <Esc>/
 imap <C-Space>? <Esc>?
 " next
-imap <C-Space>n <Esc>:bn<CR>
+imap <C-Space><C-Space>n <Esc>:bn<CR>
 " prev
-imap <C-Space>p <Esc>:bp<CR>
+imap <C-Space><C-Space>p <Esc>:bp<CR>
 " new
 imap <C-Space>bn <Esc>:badd<CR>
 " firts

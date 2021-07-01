@@ -3,3 +3,6 @@
 alias v='nvim'
 alias v.='nvim .'
 alias vf='nvim $(fzf)'
+vfb (){
+  nvim $(find *.$1 -type f | fzf > selected)
+}

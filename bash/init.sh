@@ -14,11 +14,11 @@ for sumber_completion in $default_bash_dir/completions/*.sh; do
   source $sumber_completion
 done
 # tmux source
-if [[$TMUX]]; then source $default_bash_dir/../tmux/tmux-git.sh; fi
+# if [[$TMUX]]; then source $default_bash_dir/../tmux/tmux-git.sh; fi
 
 # key termux
-extra-keys = [ \
- ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \
- ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','BKSP'] \
-]
+# extra-keys = [ \
+#  ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \
+#  ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','BKSP'] \
+# ]
 

@@ -34,6 +34,8 @@ alias gre='git rebase'
 alias gcl='git clone'
 #tag list
 alias tagl='echo "$(git tag -l)"'
+alias tagd='git tag -d '
+alias taga='git tag '
 # remote
 alias gr='git remote'
 alias gra='gr add'

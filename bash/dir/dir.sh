@@ -1,6 +1,7 @@
 ## ====== My Direktori
 ### ubah sesuai direktori anda
 #web muryp blog
+alias dw='cd $dw' 
 alias mury='cd $zzz/web/muryp/ && '
 alias dm='cd  $zzz/web/muryp/'
 alias dmi='cd  $dmi' # img
@@ -11,7 +12,7 @@ alias dmtpmh='cd $dmtpmh' # head
 alias dmtps='cd $dmtps' # script theme
 alias dmc='cd $dmc' # content
 alias dmk='cd $dmk' # config
-alias dmd='cd $dmd' # config
+alias dmd='cd $dmd' # deploy
 
 #lain
 alias dl='cd ~/storage/shared/'

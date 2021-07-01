@@ -73,6 +73,5 @@ imap <C-Space><Space>j <Esc>10j
 imap <C-Space><Space>h <Esc>I
 " last colom
 imap <C-Space><Space>l <Esc>A
-" commet
-" 
-
+" fuzzy
+nmap <Space>f <Esc>:FZF<CR>

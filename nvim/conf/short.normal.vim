@@ -7,10 +7,10 @@ nmap ; :
 
 " global shortcut
 " help
-nmap <Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR>
-nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR>
-nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR>
-nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR>
+nmap <Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR><CR>
+nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR><CR>
+nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR><CR>
+nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR><CR>
 " quit
 nmap qq :q
 nmap <C-q> :q!
@@ -71,3 +71,5 @@ nmap <Space><Space>l A<Esc>
 nmap <C-Space>l A<Esc>
 " comment
 nmap <Space>/ <Space>c<Space>
+" fuzzy
+nmap <Space>f <Esc>:FZF<CR>

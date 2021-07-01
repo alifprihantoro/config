@@ -6,7 +6,9 @@ dv=$dc/nvim
 ssh=$de/.ssh
 
 # web muryp
-dm=$zzz/web/muryp # default dir muryp
+dw=$zzz/web # dir web
+dm=$dw/muryp # default dir muryp
+dmd=$dw/deploy-muryp/ # deploy dir
 dmi=$dm/hosting/img/public # img
 dms=$dm/hosting/script/public # script
 dmt=$dm/themes/muryp # theme
@@ -15,4 +17,3 @@ dmtpmh=$dmtp/main/head/ # head
 dmtps=$dmtp/script # script theme
 dmc=$dm/content # content
 dmk=$dm/config/_default/ # config
-dmd=$zzz/web/deploy-muryp/ # deploy dir

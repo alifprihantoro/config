@@ -1,0 +1,24 @@
+CTRL ("special key")
+ALT ("special key")
+FN ("special key")
+SPACE
+ESC
+TAB
+HOME
+END
+PGUP
+PGDN
+INS
+DEL
+BKSP
+UP
+LEFT
+RIGHT
+DOWN
+ENTER
+BACKSLASH
+QUOTE
+APOSTROPHE
+F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12
+KEYBOARD (Hide the keyboard)
+DRAWER (Open app drawer)

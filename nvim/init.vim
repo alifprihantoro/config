@@ -19,3 +19,4 @@ source ~/.config/nvim/conf/style.vim
 " list map :arg
 " gitflow
 " nertThree conf
+set cocdisable

@@ -1,6 +1,12 @@
-# upload auto on github and gitlab
-gu
-# save not auto commit
+## git commit
 gsv
-# save and push
+## git commit auto
+gsva
+## add ssh
+gssh
+## all branch remote
+guab
+## push on branch all remote
+gu
+## commit with upload
 gsp

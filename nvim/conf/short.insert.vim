@@ -48,7 +48,7 @@ imap <C-Space>rl <Esc>V"_di
 imap <C-Space>ra <Esc>ggVG"_di
 " clipboard
 " paste
-imap <C-Space><Space>p <Esc>"_P
+imap <C-Space><Space>p <Space><Esc>"+Pa
 " copy linej
 imap <C-Space>yl <Esc>Vyi
 " copy all

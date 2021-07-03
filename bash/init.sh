@@ -13,6 +13,15 @@ source $default_bash_dir/alias/init.sh
 for sumber_completion in $default_bash_dir/completions/*.sh; do 
   source $sumber_completion
 done
+
+# fzf end
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+cs
+
+
+
+
+
 # tmux source
 # if [[$TMUX]]; then source $default_bash_dir/../tmux/tmux-git.sh; fi
 

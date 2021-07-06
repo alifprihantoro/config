@@ -182,7 +182,7 @@ checklist :
 
 ## source 
 - https://www.google.com/amp/s/x-team.com/blog/neovim-javascript/amp/?espv=1
-
+- [[https://vi.stackexchange.com/questions/29251/deleting-lines-matching-a-pattern-and-put-them-into-the-buffer/29252#29252  ]]
 
 ## auto save 
 {

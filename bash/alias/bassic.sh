@@ -21,5 +21,13 @@ alias q='exit -y'
 alias ..='cd ..'
 alias pbcopy='termux-clipboard-set'
 alias pbpaste='$(termux-clipboard-get)'
-alias cf='cd $(find * -type d | fzf)'
+alias cf='cd_w_fzf=$(find * -type d | fzf)
+while [ "$cd_w_fzf" != "" ]
+do 
+cd $cd_w_fzf
+break
+done
+'
+alias w='cd $de/vimwiki
+v index.md'
 #alias ubun='~/ubuntu/./su.sh'

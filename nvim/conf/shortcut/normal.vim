@@ -86,9 +86,9 @@ nmap <Space>gl :Gclog<CR>
 " Git Commit
 nmap <Space>gc :Gcommit<CR>
 " mv line to bottom and back
-nmap <Space>tb VdG<C-o>
+nmap <Space>tb VdGp<C-o>
 " plug source
-nmap <Space>sp :source ~/storage/external-1/config/nvim/conf/plug/other.vim
+nmap <Space>s :source ~/storage/external-1/config/nvim/conf/plug/other.vim<CR><CR>
 
 " prev
 " move one line up

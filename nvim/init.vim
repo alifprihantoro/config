@@ -16,6 +16,9 @@ source ~/storage/external-1/config/nvim/conf/style/them.vim
 " html higligh
 source ~/storage/external-1/config/nvim/conf/style/html.vim
 source ~/storage/external-1/config/nvim/conf/style/style.vim
+" comment 
+source ~/storage/external-1/config/nvim/conf/init/comment.vim
+
 " list map :arg
 " gitflow
 " nertThree conf

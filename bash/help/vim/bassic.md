@@ -54,7 +54,8 @@
 - f or t for jump to symbol or var or numb
 - <C-d> scroll down
 - <C-u> scroll up
--
+- <C-o> back prev position
+- <C-i> back next position
 
 ## Git
 - Ge: for git status/show commit

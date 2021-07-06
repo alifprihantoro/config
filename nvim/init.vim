@@ -1,22 +1,22 @@
 " dir = .config/nvim/conf
 " Plugin install 
-source ~/.config/nvim/conf/plug.vim
+source ~/storage/external-1/config/nvim/conf/plug/main.vim
 " bassic init
-source ~/.config/nvim/conf/bassic.vim
+source ~/storage/external-1/config/nvim/conf/init/bassic.vim
+" wiki init
+source ~/storage/external-1/config/nvim/conf/init/wiki.vim
 " short code on insert mode
-source ~/.config/nvim/conf/short.insert.vim
+source ~/storage/external-1/config/nvim/conf/shortcut/insert.vim
 " short code normal mode
-source ~/.config/nvim/conf/short.normal.vim
+source ~/storage/external-1/config/nvim/conf/shortcut/normal.vim
 " short code on visual mode
-source ~/.config/nvim/conf/short.visual.vim
-" autocomplete
-source ~/.config/nvim/conf/tab-coc.vim
+source ~/storage/external-1/config/nvim/conf/shortcut/visual.vim
 " theme
-source ~/.config/nvim/conf/them.vim
+source ~/storage/external-1/config/nvim/conf/style/them.vim
 " html higligh
-source ~/.config/nvim/conf/html.vim
-source ~/.config/nvim/conf/style.vim
+source ~/storage/external-1/config/nvim/conf/style/html.vim
+source ~/storage/external-1/config/nvim/conf/style/style.vim
 " list map :arg
 " gitflow
 " nertThree conf
-set cocdisable
+"set cocdisable

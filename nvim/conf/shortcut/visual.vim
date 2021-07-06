@@ -26,3 +26,5 @@ vmap ' di'<Esc>pi
 vmap ` di`<Esc>pi
 " comment
 vmap <Space>/ <Space>cc
+" move to bottom
+nmap <Space>tb dG<C-o>

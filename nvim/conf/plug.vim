@@ -3,18 +3,10 @@
 "
 
 call plug#begin('~/.config/plugin')
+" install coc
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
-
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-snippets', 'coc-emmet']  " list of CoC extensions needed
-
+ 
 Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
-
-" these two plugins will add highlighting and indenting to JSX and TSX files.
-Plug 'yuezk/vim-js'
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'maxmellon/vim-jsx-pretty' 
-" js snippet
-Plug 'grvcoelho/vim-javascript-snippets'
 
 " html/emmet snippet
 Plug 'mattn/emmet-vim'
@@ -33,7 +25,6 @@ Plug 'chrisbra/Colorizer'
 Plug 'scrooloose/nerdtree'
 
 " File Explorer with Icons
-  Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
@@ -78,6 +69,8 @@ Plug 'preservim/nerdcommenter'
 " color warning
 " Plug 'folke/lsp-colors.nvim'
 Plug 'ap/vim-css-color'
+" Wiki / to do list / note
+Plug 'vimwiki/vimwiki'
   " -------------------------------------
 " Add plugins to &runtimepath
   " Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
@@ -100,5 +93,13 @@ let g:fzf_layout = { 'window': '-tabnew' }
 " set -g default-terminal "${TERM}"
 " set -as terminal-overrides ',*:Smulx=\E[4::%p1%dm'  # undercurl support
 " set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{255}%&%d::%p1%{255}%&%d%;m'  # underscore colours - needs tmux-3.0
-let g:Hexokinase_highlighters = ['virtual']
-autocmd CursorHold * silent call CocActionAsync('highlight')
+
+
+
+let g:vimwiki_list = [{'path': '~/storage/external-1/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+" toogle check
+nmap <Space>tc <Plug>VimwikiToggleListItem 
+" toogle create toogle
+nmap <Space>tcc <Plug>VimwikiToggleListItem 
+let g:vimwiki_listsyms = '✗○◐●✓' 

@@ -85,7 +85,9 @@ nmap <Space>gf :GitFiles<CR>
 nmap <Space>gl :Gclog<CR>
 " Git Commit
 nmap <Space>gc :Gcommit<CR>
-
+" prettier
+vmap <leader>s  <Plug>(coc-format-selected)
+nmap <leader>s  <Plug>(coc-format-selected)
 
 " prev
 " move one line up

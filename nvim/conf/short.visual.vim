@@ -26,3 +26,6 @@ vmap ' di'<Esc>pi
 vmap ` di`<Esc>pi
 " comment
 vmap <Space>/ <Space>cc
+" Prettier
+vmap <leader>s  <Plug>(coc-format-selected)
+nmap <leader>s  <Plug>(coc-format-selected)

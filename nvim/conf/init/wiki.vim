@@ -28,7 +28,7 @@
     let dev.name = 'development'
     let dev.path = '~/storage/external-1/wiki/development'
     " let dev.html_template = '~/public_html/template.tpl'
-    " let dev.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
+    let dev.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
     let dev.syntax = 'markdown'
     let dev.ext = '.md'
 
@@ -50,3 +50,32 @@
 
     let g:vimwiki_list = [dev, docs, privat ]
  let g:vimwiki_user_htmls = '404.html,search.html'
+
+
+
+
+
+
+
+
+  " Convert {{URL|#|ID}} -> URL#ID
+  function! VimwikiWikiIncludeHandler(value)
+    let str = a:value
+
+    " complete URL
+    let url_0 = matchstr(str, g:vimwiki_rxWikiInclMatchUrl)
+    " URL parts
+    let link_infos = vimwiki#base#resolve_link(url_0)
+    let arg1 = matchstr(str, VimwikiWikiInclMatchArg(1))
+    let arg2 = matchstr(str, VimwikiWikiInclMatchArg(2))
+
+    if arg1 =~ '#'
+      return link_infos.filename.'#'.arg2
+    endif
+
+    " Return the empty string when unable to process link
+    return ''
+  endfunction
+
+
+   

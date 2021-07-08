@@ -4,10 +4,10 @@ w1=$wl/development
 w2=$wl/docs
 w3=$wl/private
 
-alias dwl='cd wl'
-alias dw1='cd w1'
-alias dw2='cd w2'
-alias dw3='cd w3'
+alias dwl='cd $wl'
+alias dw1='cd $w1'
+alias dw2='cd $w2'
+alias dw3='cd $w3'
 
 # use 
 alias wl='wl

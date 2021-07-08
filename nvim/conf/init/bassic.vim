@@ -5,13 +5,14 @@
 " (not necessary to set with neovim, but useful for vim)
 set nocompatible
 set go+=a 
+
 "Disable beep / flash
 set vb t_vb=
 
 " Set tabs and indents (for go)
 set ts=4
-set shiftwidth=4
 set ai sw=4
+
 " replace tab with spaces
 "set expandtab
 " allow cursor to move to beginning of tab
@@ -21,14 +22,6 @@ set list lcs=tab:\ \
 " highlight matches when searching
 " Use C-l to clear (see key map section)
 set hlsearch
-
-" Line numbering
-" Toggle set to ';n' in key map section
-set nonumber
-
-" Disable line wrapping
-" Toggle set to ';w' in key map section
-set wrap!
 
 " enable line and column display
 set ruler
@@ -49,17 +42,16 @@ set sidescroll=6
 
 " Make it easier to work with buffers
 " http://vim.wikia.com/wiki/Easier_buffer_switching
-" set hidden
-" set confirm
-" set autowriteall
-" set wildmenu wildmode=full
+set hidden
+set confirm
+set wildmenu wildmode=full
 
 " markdown
 " https://github.com/plasticboy/vim-markdown
 let g:vim_markdown_folding_disabled = 1
 
 " auto switch current working directory to current buffer (not recommended)
-"autocmd BufEnter * :cd %:p:h
+autocmd BufEnter * :cd %:p:h
 
 " open new split panes to right and below (as you probably expect)
 set splitright
@@ -67,23 +59,6 @@ set splitbelow
 
 " Use Ag (the silver searcher) instack of Ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 " init autocmd
 autocmd!
@@ -101,7 +76,6 @@ set title
 set autoindent
 set background=dark
 set nobackup
-set hlsearch
 set showcmd
 set cmdheight=1
 set laststatus=2
@@ -124,7 +98,7 @@ set nosc noru nosm
 set lazyredraw
 "set showmatch
 " How many tenths of a second to blink when matching brackets
-"set mat=2
+set mat=2
 " Ignore case when searching
 set ignorecase
 " Be smart when using tabs ;)
@@ -221,5 +195,6 @@ set directory^=$HOME/.vim/tmp//
 
 " git gitgutter
 set updatetime=100
+
 " fuzzy
 let g:fzf_layout = { 'window': '-tabnew' }

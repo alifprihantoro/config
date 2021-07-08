@@ -10,15 +10,15 @@ alias dw2='cd $w2'
 alias dw3='cd $w3'
 
 # use 
-alias wl='wl
+alias wl='dwl
 v index.md
 '
-alias w1='cd w1
+alias w1='dw1
 v index.md
 '
-alias w2='cd w2
+alias w2='dw2
 v index.md
 '
-alias w3='cd w3
+alias w3='dw3
 v index.md
 '

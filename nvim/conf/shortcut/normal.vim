@@ -94,7 +94,7 @@ nmap <Space>s :source ~/storage/external-1/config/nvim/conf/plug/other.vim<CR><C
 " toogle checklist
 nnoremap <Space>tc :VimwikiToggleListItem<CR>
 " change symbol
-nnoremap <Space>vs :VimwikiListChangeSymbolI 1)
+nnoremap <Space>vs :VimwikiListChangeSymbolI 
 " wiki list
 nnoremap <Space>wl :VimwikiUISelect
 " to development

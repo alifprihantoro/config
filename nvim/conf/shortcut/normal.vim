@@ -90,6 +90,21 @@ nmap <Space>tb VdGp<C-o>
 " plug source
 nmap <Space>s :source ~/storage/external-1/config/nvim/conf/plug/other.vim<CR><CR>
 
+" vim wiki
+" toogle checklist
+nnoremap <Space>tc :VimwikiToggleListItem<CR>
+" change symbol
+nnoremap <Space>vs :VimwikiListChangeSymbolI 1)
+" wiki list
+nnoremap <Space>wl :VimwikiUISelect
+" to development
+nnoremap <Space>w1 :VimwikiIndex1
+" to documentation
+nnoremap <Space>w2 :VimwikiIndex2
+" to private
+nnoremap <Space>w3 :VimwikiIndex3
+
+
 " prev
 " move one line up
 " nmap <Space>p ddkP

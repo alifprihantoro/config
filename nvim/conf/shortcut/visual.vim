@@ -26,6 +26,11 @@ vmap ' di'<Esc>pi
 vmap ` di`<Esc>pi
 " comment
 vmap <Space>/ <Space>cc
+<<<<<<< HEAD:nvim/conf/short.visual.vim
 " Prettier
 vmap <leader>s  <Plug>(coc-format-selected)
 nmap <leader>s  <Plug>(coc-format-selected)
+=======
+" move to bottom
+nmap <Space>tb dG<C-o>
+>>>>>>> dev:nvim/conf/shortcut/visual.vim

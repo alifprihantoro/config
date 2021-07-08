@@ -4,9 +4,9 @@ nmap ; :
 " global shortcut
 " help
 nmap <Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR><CR>
-nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR><CR>
-nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR><CR>
-nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR><CR>
+nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/shortcut/insert.vim<CR><CR>
+nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/shortcut/normal.vim<CR><CR>
+nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/shortcut/visual.vim<CR><CR>
 " quit
 nmap qq :q
 nmap <C-q> :q!
@@ -85,9 +85,31 @@ nmap <Space>gf :GitFiles<CR>
 nmap <Space>gl :Gclog<CR>
 " Git Commit
 nmap <Space>gc :Gcommit<CR>
+<<<<<<< HEAD:nvim/conf/short.normal.vim
 " prettier
 vmap <leader>s  <Plug>(coc-format-selected)
 nmap <leader>s  <Plug>(coc-format-selected)
+=======
+" mv line to bottom and back
+nmap <Space>tb VdGp<C-o>
+" plug source
+nmap <Space>s :source ~/storage/external-1/config/nvim/conf/plug/other.vim<CR><CR>
+
+" vim wiki
+" toogle checklist
+nnoremap <Space>tc :VimwikiToggleListItem<CR>
+" change symbol
+nnoremap <Space>vs :VimwikiListChangeSymbolI 
+" wiki list
+nnoremap <Space>wl :VimwikiUISelect
+" to development
+nnoremap <Space>w1 :VimwikiIndex1
+" to documentation
+nnoremap <Space>w2 :VimwikiIndex2
+" to private
+nnoremap <Space>w3 :VimwikiIndex3
+
+>>>>>>> dev:nvim/conf/shortcut/normal.vim
 
 " prev
 " move one line up

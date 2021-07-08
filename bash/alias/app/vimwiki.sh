@@ -1,3 +1,6 @@
+alias wl='cd ~/storage/external-1/wiki
+v index.md
+'
 alias w1='cd ~/storage/external-1/wiki/development
 v index.md
 '

@@ -1,6 +1,8 @@
 " dir = .config/nvim/conf
 " Plugin install 
 source ~/storage/external-1/config/nvim/conf/plug/main.vim
+" coc init
+source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
 " bassic init
 source ~/storage/external-1/config/nvim/conf/init/bassic.vim
 " wiki init

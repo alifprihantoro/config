@@ -53,11 +53,3 @@ Plug 'ap/vim-css-color'
 
 " -------------------------------------
 call plug#end()
-
-" git gitgutter
-set updatetime=100
-" fuzzy
-let g:fzf_layout = { 'window': '-tabnew' }
-" coc init
-source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
-

@@ -167,9 +167,8 @@ set cursorline
 "set cursorcolumn
 
 " Set cursor line color on visual mode
-highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
-
-highlight LineNr       cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
+" highlight Visual cterm=NONE ctermbg=red ctermfg=NONE guibg=Grey
+" highlight LineNr       cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
 
 augroup BgHighlight
   autocmd!
@@ -209,18 +208,6 @@ set completeopt-=preview
 " localvimrc
 let g:localvimrc_ask = 0
 
-
-
-
-
-
-
-
-
-
-
-
-
 " open new split panes to right and below
 set splitright
 set splitbelow
@@ -232,3 +219,7 @@ set directory^=$HOME/.vim/tmp/
 " try cursor
 set directory^=$HOME/.vim/tmp//
 
+" git gitgutter
+set updatetime=100
+" fuzzy
+let g:fzf_layout = { 'window': '-tabnew' }

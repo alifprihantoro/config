@@ -8,4 +8,4 @@ call plug#end()
 
 " coc init
 source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
-source ~/storage/external-1/config/nvim/conf/init/complete.vim
+" source ~/storage/external-1/config/nvim/conf/init/complete.vim

@@ -1,4 +1,3 @@
-source ~/storage/external-1/config/nvim/conf/plug/coc.vim
 source ~/storage/external-1/config/nvim/conf/plug/other.vim
 call plug#begin('~/.config/plugin')
 Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
@@ -59,7 +58,8 @@ Plug 'vimwiki/vimwiki'
 call plug#end()
 
 " git gitgutter
-set updatetime=100
+" set updatetime=100
 " fuzzy
 let g:fzf_layout = { 'window': '-tabnew' }
 
+source ~/storage/external-1/config/nvim/conf/plug/coc.vim

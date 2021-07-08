@@ -1,7 +1,5 @@
-"let g:NERDTreeGitStatusConcealBrackets = 1 " default: 0 if want use plug please uncomment
-"
-"
-
+source ~/storage/external-1/config/nvim/conf/plug/coc.vim
+source ~/storage/external-1/config/nvim/conf/plug/other.vim
 call plug#begin('~/.config/plugin')
 Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 

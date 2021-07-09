@@ -26,19 +26,19 @@ v index.md
 # fzf
 alias wlf='
 dwl
-cf
+vf
 '
 alias wdf='
 dwd
-cf
+vf
 '
 alias wdof='
 dwdo
-cf
+vf
 '
 
 alias wpf='
 dwp
-cf
+vf
 '
 

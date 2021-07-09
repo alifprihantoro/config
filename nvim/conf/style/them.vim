@@ -10,10 +10,10 @@ let g:airline_section_b = ''
 let g:airline_section_z = '%{airline#util#wrap(airline#extensions#hunks#get_hunks(),0)}%{airline#util#wrap(airline#extensions#branch#get_head(),0)}'
 let g:airline_section_a = '%#__accent_bold#%{airline#util#wrap(airline#parts#mode(),0)}%#__restore__#%{airline#util#append(airline#parts#crypt(),0)}%{airline#util#append(airline#parts#paste(),0)}%{airline#util#append(airline#extensions#keymap#status(),0)}%{airline#util#append(airline#parts#spell(),0)}%{airline#util#append("",0)}%{airline#util#append("",0)}%{airline#util#append(airline#parts#iminsert(),0)}'
 
-hi CursorLine   cterm=NONE ctermbg=323ca8 ctermfg=NONE 
+" hi CursorLine   cterm=NONE ctermbg=323ca8 ctermfg=NONE
 " number highlight
-hi CursorLineNR cterm=bold ctermbg=red ctermfg=black
-hi Cursor guifg=white guibg=black
+" hi CursorLineNR cterm=bold ctermbg=red ctermfg=black
+" hi Cursor guifg=white guibg=black
 
 
 let g:colors_name = "darcula"
@@ -33,7 +33,7 @@ hi IncSearch term=reverse ctermfg=188 ctermbg=24 guifg=#323232 guibg=#b1c73d gui
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#2b2b2b gui=NONE
 
-hi Normal ctermfg=188 ctermbg=235 cterm=NONE guifg=black guibg=black gui=NONE
+hi Normal ctermfg=blue ctermbg=black cterm=NONE guifg=black guibg=black gui=NONE
 hi Boolean ctermfg=103 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi Character ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=italic
 hi Comment ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=italic
@@ -200,4 +200,3 @@ hi TabLine ctermfg=146 ctermbg=16 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NON
 hi TabLineSel ctermfg=146 ctermbg=59 cterm=NONE guifg=#a9b7c6 guibg=#515658 gui=NONE
 
 set background=dark
-

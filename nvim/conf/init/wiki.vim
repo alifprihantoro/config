@@ -7,7 +7,8 @@ let dev.ext = '.md'
 
 let docs = {}
 let docs.name = 'Documentation'
-let docs.path = '~/storage/external-1/wiki/documentation'
+let docs.index = 'README'
+let docs.path = '~/storage/external-1/wiki/docs'
 let docs.syntax = 'markdown'
 let docs.ext = '.md'
 

@@ -8,12 +8,8 @@ for sumber_alias1 in $default_bash_dir/alias/oh_my_bash/*.sh; do
   source $sumber_alias1
 done
 # alias app
-for sumber_alias2 in $default_bash_dir/alias/app/*.sh; do 
+for sumber_alias2 in $default_bash_dir/alias/app/*/*.sh; do 
   source $sumber_alias2
-done
-# alias app
-for sumber_alias3 in $default_bash_dir/alias/app/*.sh; do
-  source $sumber_alias3
 done
 # alias git
 for sumber_alias4 in $default_bash_dir/alias/app/git/*.sh; do 
@@ -58,3 +54,9 @@ done
 # alias ganti='source $getAlias/gantiTeks.sh'
 
 #source : https://medium.com/@mohdlatche/customizing-termux-fd6719dda989
+
+
+# # alias app
+# for sumber_alias3 in $default_bash_dir/alias/app/*.sh; do
+#   source $sumber_alias3
+# done

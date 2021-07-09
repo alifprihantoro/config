@@ -1,24 +1,44 @@
 # dir
 wl=$de/wiki
-w1=$wl/development
-w2=$wl/docs
-w3=$wl/private
+wd=$wl/development
+wdo=$wl/docs
+wp=$wl/private
 
 alias dwl='cd $wl'
-alias dw1='cd $w1'
-alias dw2='cd $w2'
-alias dw3='cd $w3'
+alias dwd='cd $wd'
+alias dwdo='cd $wdo'
+alias dwp='cd $wp'
 
 # use 
 alias wl='dwl
 v index.md
 '
-alias w1='dw1
+alias w1='dwd
 v index.md
 '
-alias w2='dw2
+alias w2='dwdo
 v index.md
 '
-alias w3='dw3
+alias w3='dwp
 v index.md
 '
+
+# fzf
+alias wlf='
+dwl
+cf
+'
+alias wdf='
+dwd
+cf
+'
+alias wdof='
+dwdo
+cf
+'
+
+alias wpf='
+dwp
+cf
+'
+

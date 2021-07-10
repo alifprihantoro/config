@@ -16,7 +16,6 @@ done
 
 # fzf end
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-c
 
 
 

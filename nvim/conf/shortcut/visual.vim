@@ -28,3 +28,7 @@ vmap ` di`<Esc>pi
 vmap <Space>/ <Space>cc
 " move to bottom
 nmap <Space>tb dG<C-o>
+" toogle checklist
+nnoremap <Space>tc :VimwikiToggleListItem<CR>
+" change symbol
+nnoremap <Space>vs :VimwikiListChangeSymbolI 

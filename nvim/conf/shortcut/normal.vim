@@ -59,12 +59,14 @@ nmap <C-Space>k 10k
 " scroll down
 nmap <Space><Space>j 10j
 nmap <C-Space>j 10j
+" scroll left
+map <C-Space>l 20zl " Scroll 20 characters to the right
+" scroll righ
+map <C-Space>h 20zh " Scroll 20 characters to the left 
 " firts colom
 nmap <Space><Space>h I<Esc>
-nmap <C-Space>h I<Esc>
 " last colom
 nmap <Space><Space>l A<Esc>
-nmap <C-Space>l A<Esc>
 " comment
 nmap <Space>/ <Space>c<Space>
 " fuzzy

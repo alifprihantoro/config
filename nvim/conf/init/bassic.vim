@@ -18,6 +18,7 @@ set ai sw=4
 " allow cursor to move to beginning of tab
 " will interfere with soft line wrapping (set nolist)
 set list lcs=tab:\ \ 
+set wrap!
 
 " highlight matches when searching
 " Use C-l to clear (see key map section)

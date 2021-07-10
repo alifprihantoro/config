@@ -1,40 +1,35 @@
-" short kusus insert
-" visual mode
+" short kusus insert-----
+"---------
+" visual mode v
 imap <C-v> <Esc>v
+" visual mode V
+imap <C-Space>V <Esc>V
+" visual mode c-v
+imap <C-Space>v <Esc><C-v>
+"---------
 " normal with :
 imap :: <Esc>:
 " normal jj
-imap ,, <Esc>
+imap jj <Esc>
+"---------
 " undo
 imap <C-Space>u <Esc>ui
 " redo
 imap <C-Space>r <Esc><C-r>i
-" paste
-imap <C-Space>p <Esc>Pi
-" copy line
-imap <C-Space>yl <Esc>Vyi
-" cut line
-imap <C-Space>dl <Esc>Vdi
-
-" global shortcut
-" help
-imap <C-Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR><CR>
-imap <C-Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.insert.vim<CR><CR>
-imap <C-Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.normal.vim<CR><CR>
-imap <C-Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/short.visual.vim<CR><CR>
+"----------
 " quit
 imap qq <Esc>:q
-imap <C-q> <Esc>:q!
 " save
-imap <C-s> <Esc>:w<CR>i
+imap <C-Space>s <Esc>:w<CR>i
 " save and quit
-imap <C-Space>q <Esc>:wq<CR>
+imap <C-Space>q <Esc>:wq
+
+"buffer----------
 " copy word
-imap <C-Space>yw <Esc>bveyi
+imap <C-Space>yw <Esc>veyi
 " copy all
 imap <C-Space>ya <Esc>ggVGyi
 " cut word
-" 
 imap <C-Space>dw <Esc>bvedi
 " cut all
 imap <C-Space>da <Esc>ggVGdi
@@ -46,51 +41,63 @@ imap <C-Del> <Esc>bve"_di
 imap <C-Space>rl <Esc>V"_di
 " delete all
 imap <C-Space>ra <Esc>ggVG"_di
-" clipboard
+
+" clipboard----------
 " paste
 imap <C-Space><Space>p <Space><Esc>"+Pa
-" copy linej
-imap <C-Space>yl <Esc>Vyi
+" copy word
+imap <C-Space><Space>yw <Esc>ve"+yi
 " copy all
-imap <C-Space>ya <Esc>ggVGyi
-" cut line
-imap <C-Space>dl <Esc>Vdi
+imap <C-Space><Space>ya <Esc>ggVG"+yi
+" cut word
+imap <C-Space><Space>dw <Esc>bve"+di
 " cut all
-imap <C-Space>da <Esc>ggVGdi
-" NERDTreeToggle
-imap <C-t> <Esc>:NERDTreeToggle<CR>
-" new tab
-imap <C-Space>tn <Esc>:tabnew<CR>i
-" next tab
-imap <C-Space>k <Esc>:tabnext<CR>i
-" prev tab
-imap <C-Space>j <Esc>:tabprevious<CR>i
-" firts tab
-nmap <C-Space>tf <Esc>:tabfirst<CR>i
-" last tab
-nmap <C-Space>tl <Esc>:tablast<CR>i
+imap <C-Space><Space>da <Esc>ggVG"+di
 " visual pelengkap 'visual cut'
-" scroll up
-imap <C-Space><Space>k <Esc>10k
-" scroll down
-imap <C-Space><Space>j <Esc>10j
-" firts colom
-imap <C-Space><Space>h <Esc>I
-" last colom
-imap <C-Space><Space>l <Esc>A
+
+" finder----------
 " fuzzy
 imap <C-Space>f <Esc>:FZF<CR>
 " search
 imap <C-Space>/ <Esc>/
 imap <C-Space>? <Esc>?
+
+" tab ------------------
+" NERDTreeToggle
+imap <C-Space>t <Esc>:NERDTreeToggle<CR>
+" new tab
+imap <C-Space>tn <Esc>:tabnew<CR>i
+" next tab
+imap <C-Space>n <Esc>:tabnext<CR>i
+" prev tab
+imap <C-Space>p <Esc>:tabprevious<CR>i
+" firts tab
+nmap <C-Space>tf <Esc>:tabfirst<CR>i
+" last tab
+nmap <C-Space>tl <Esc>:tablast<CR>i
+"------------
 " next
-imap <C-Space><C-Space>n <Esc>:bn<CR>
+imap <C-Space><Space>n <Esc>:bn<CR>i
 " prev
-imap <C-Space><C-Space>p <Esc>:bp<CR>
+imap <C-Space><Space>p <Esc>:bp<CR>i
 " new
-imap <C-Space>bn <Esc>:badd<CR>
+imap <C-Space>bn <Esc>:badd<CR>i
 " firts
-imap <C-Space>bf <Esc>:bfirst<CR>
+imap <C-Space>bf <Esc>:bfirst<CR>i
 " last
-imap <C-Space>bl <Esc>:blast<CR>
+imap <C-Space>bl <Esc>:blast<CR>i
+
+"scroll---------------
+" scroll up
+imap <C-Space>k <Esc>10ki
+" scroll down
+imap <C-Space>j <Esc>10ji
+" scroll left
+imap <C-Space>l 20zli 
+" scroll righ
+imap <C-Space>h 20zhi 
+" firts colom
+imap <C-Space>i <Esc>I
+" last colom
+imap <C-Space>a <Esc>A
 

@@ -13,6 +13,8 @@ source ~/storage/external-1/config/nvim/conf/shortcut/insert.vim
 source ~/storage/external-1/config/nvim/conf/shortcut/normal.vim
 " short code on visual mode
 source ~/storage/external-1/config/nvim/conf/shortcut/visual.vim
+" short code on command mode
+source ~/storage/external-1/config/nvim/conf/shortcut/command.vim
 " theme
 source ~/storage/external-1/config/nvim/conf/style/them.vim
 " html higligh

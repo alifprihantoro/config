@@ -1,100 +1,72 @@
-" special normal
-nmap ; :
-
-" global shortcut
-" help
-nmap <Space>hb <Esc>:tabnew ~/storage/external-1/config/bash/help/vim/bassic.md<CR><CR>
-nmap <Space>hi <Esc>:tabnew ~/storage/external-1/config/nvim/conf/shortcut/insert.vim<CR><CR>
-nmap <Space>hn <Esc>:tabnew ~/storage/external-1/config/nvim/conf/shortcut/normal.vim<CR><CR>
-nmap <Space>hv <Esc>:tabnew ~/storage/external-1/config/nvim/conf/shortcut/visual.vim<CR><CR>
 " quit
 nmap qq :q
-nmap <C-q> :q!
 " save
-nmap <C-s> :w<CR>
-" save and quit
-nmap <Space>q :wq<CR>
+nmap <Space>s :w<CR>
+" plug
+nmap ; :
+
+" buffer--------
 " copy all
 nmap ya ggVGy
 " cut all
 nmap da ggVGd
+" delete--------------
 " just delete
 nmap <BS> "_d
 nmap <Del> "_d
 " delete word before
-nmap <Space-BS> bve"_d
+nmap <Space>re vb"_d
 " delete word after
-nmap <Space-Del> evb"_d
+nmap <Space>rb ve"_d
 " delete line
 nmap <Space><Del> V"_d
 nmap <Space><BS> V"_d
 " delete all
 nmap <Space>ra ggVG"_d
-" delete all
-nmap <C-Space>da ggVG"+d
-" clipboard
+" clipboard-----------
 " paste
 nmap <C-Space>p "+p
 " copy word
-nmap <C-Space>yw bve"+y
+nmap <Space>yw bve"+y
 " copy line
-nmap <C-Space>yy bve"+y
+nmap <Space>yy bve"+y
 " copy all
-nmap <C-Space>ya ggVG"+y
+nmap <Space>ya ggVG"+y
+" cut all
+nmap <Space>da ggVG"+d
+
+" fuzzy
+nmap <Space>f <Esc>:FZF<CR>
+
+" tab
 " NERDTreeToggle
 nmap <C-t> :NERDTreeToggle<CR>
+" --------------
 " new tab
 nmap <Space>tn :tabnew<CR>
 " next tab
-nmap <Space>k :tabnext<CR>
+nmap <Space>n :tabnext<CR>
 " prev tab
-nmap <Space>j :tabprevious<CR>
+nmap <Space>p :tabprevious<CR>
 " firts tab
 nmap <Space>tf :tabfirst<CR>
 " last tab
 nmap <Space>tl :tablast<CR>
-" scroll up
-nmap <Space><Space>k 10k
-nmap <C-Space>k 10k
-" scroll down
-nmap <Space><Space>j 10j
-nmap <C-Space>j 10j
-" scroll left
-map <C-Space>l 20zl " Scroll 20 characters to the right
-" scroll righ
-map <C-Space>h 20zh " Scroll 20 characters to the left 
-" firts colom
-nmap <Space><Space>h I<Esc>
-" last colom
-nmap <Space><Space>l A<Esc>
-" comment
-nmap <Space>/ <Space>c<Space>
-" fuzzy
-nmap <Space>f <Esc>:FZF<CR>
+" ------------
 " next
-nmap <Space>n :bn<CR>
+nmap <Space><Space>n :bn<CR>
 " prev
-nmap <Space>p :bp<CR>
+nmap <Space><Space>p :bp<CR>
 " new
 nmap <Space>bn :badd<CR>
 " firts
 nmap <Space>bf :bfirst<CR>
 " last
 nmap <Space>bl :blast<CR>
-" Git files
-nmap <Space>gf :GitFiles<CR>
-" Git log
-nmap <Space>gl :Gclog<CR>
-" Git Commit
-nmap <Space>gc :Gcommit<CR>
-" mv line to bottom and back
-nmap <Space>tb VdGp<C-o>
-" plug source
-nmap <Space>s :source ~/storage/external-1/config/nvim/conf/plug/other.vim<CR><CR>
 
-" vim wiki
-" toogle checklist
-nnoremap <Space>tc :VimwikiToggleListItem<CR>
+" vim wiki---------
+" toogle checklist fow vimwiki
+nnoremap <Space>- :VimwikiToggleListItem<CR>
 " change symbol
 nnoremap <Space>vs :VimwikiListChangeSymbolI 
 " wiki list
@@ -106,9 +78,24 @@ nnoremap <Space>w2 :VimwikiIndex2
 " to private
 nnoremap <Space>w3 :VimwikiIndex3
 
+" scroll -------
+" scroll up
+nmap <Space>k 10k
+" scroll down
+nmap <Space>j 10j
+" scroll left
+map <Space>l 20zl 
+" scroll righ
+map <Space>h 20zh 
 
-" prev
-" move one line up
-" nmap <Space>p ddkP
-" " move one line down
-" nmap <Space>n ddjP
+" Git ----------
+" Git files
+nmap <Space>gf :GitFiles<CR>
+" Git log
+nmap <Space>gl :Gclog<CR>
+" Git Commit
+nmap <Space>gc :Gcommit<CR>
+
+" comment
+nmap <Space>/ <Space>c<Space>
+

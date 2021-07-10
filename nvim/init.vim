@@ -25,3 +25,5 @@ source ~/storage/external-1/config/nvim/conf/init/comment.vim
 " gitflow
 " nertThree conf
 "set cocdisable
+"
+ 

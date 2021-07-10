@@ -11,6 +11,12 @@ Plug 'maxmellon/vim-jsx-pretty'
 " js snippet
 Plug 'grvcoelho/vim-javascript-snippets'
 
+" ---------- other ex
+"  toml
+Plug 'cespare/vim-toml' 
+" hugo
+Plug 'robertbasic/vim-hugo-helper' 
+
 " ---------- bassic
 Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 " comment

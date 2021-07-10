@@ -70,7 +70,7 @@ imap <C-Space>tn <Esc>:tabnew<CR>i
 " next tab
 imap <C-Space>n <Esc>:tabnext<CR>i
 " prev tab
-imap <C-Space>p <Esc>:tabprevious<CR>i
+imap <C-Space>tp <Esc>:tabprevious<CR>i
 " firts tab
 nmap <C-Space>tf <Esc>:tabfirst<CR>i
 " last tab
@@ -79,7 +79,7 @@ nmap <C-Space>tl <Esc>:tablast<CR>i
 " next
 imap <C-Space><Space>n <Esc>:bn<CR>i
 " prev
-imap <C-Space><Space>p <Esc>:bp<CR>i
+imap <C-Space>bp Esc>:bp<CR>i
 " new
 imap <C-Space>bn <Esc>:badd<CR>i
 " firts
@@ -93,9 +93,9 @@ imap <C-Space>k <Esc>10ki
 " scroll down
 imap <C-Space>j <Esc>10ji
 " scroll left
-imap <C-Space>l 20zli 
+imap <C-Space>l <Esc>20zli 
 " scroll righ
-imap <C-Space>h 20zhi 
+imap <C-Space>h <Esc>20zhi 
 " firts colom
 imap <C-Space>i <Esc>I
 " last colom

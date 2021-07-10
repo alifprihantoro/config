@@ -40,7 +40,7 @@ nmap <Space>f <Esc>:FZF<CR>
 
 " tab
 " NERDTreeToggle
-nmap <C-t> :NERDTreeToggle<CR>
+nmap <Space>t :NERDTreeToggle<CR>
 " --------------
 " new tab
 nmap <Space>tn :tabnew<CR>
@@ -87,6 +87,10 @@ nmap <Space>j 10j
 map <Space>l 20zl 
 " scroll righ
 map <Space>h 20zh 
+" firts line
+map <Space>i I<Esc>
+" last line
+map <Space>a A<Esc>
 
 " Git ----------
 " Git files

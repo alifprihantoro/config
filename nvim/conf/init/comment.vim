@@ -27,5 +27,5 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 " mappings
 let mapleader = " " " map leader to Space
-nnoremap <silent> <Space>c} V}:call NERDComment('x', 'toggle')<CR>
-nnoremap <silent> <Space>c{ V{:call NERDComment('x', 'toggle')<CR>
+" nnoremap <silent> <Space>c} V}:call NERDComment('x', 'toggle')<CR>
+" nnoremap <silent> <Space>c{ V{:call NERDComment('x', 'toggle')<CR>

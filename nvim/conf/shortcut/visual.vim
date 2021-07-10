@@ -25,7 +25,7 @@ vmap ' di'<Esc>pi
 " complete ``
 vmap ` di`<Esc>pi
 " comment
-vmap <Space>/ <Space>cc
+vmap <Space>/ <Space>c<Space>
 " move to bottom
 nmap <Space>tb dG<C-o>
 " toogle checklist

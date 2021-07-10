@@ -56,6 +56,7 @@
 - <C-u> scroll up
 - <C-o> back prev position
 - <C-i> back next position
+- <Plug>setfiletype  for file type
 
 ## Git
 - Ge: for git status/show commit

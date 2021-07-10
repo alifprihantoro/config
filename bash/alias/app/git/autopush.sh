@@ -1,5 +1,5 @@
 # push all branch and remote
-alias guab='
+alias gap='
 gssh
 git remote | xargs -L1 git push --all
 '

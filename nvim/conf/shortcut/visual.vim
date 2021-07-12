@@ -27,8 +27,8 @@ vmap ` di`<Esc>pi
 " comment
 vmap <Space>/ <Space>c<Space>
 " move to bottom
-nmap <Space>tb dG<C-o>
+vmap <Space>tb dG<C-o>
 " toogle checklist
-nnoremap <Space>tc :VimwikiToggleListItem<CR>
+vmap <Space>tc <Plug>VimwikiToggleListItem<CR>
 " change symbol
-nnoremap <Space>vs :VimwikiListChangeSymbolI 
+vmap <Space>vs :VimwikiListChangeSymbolI 

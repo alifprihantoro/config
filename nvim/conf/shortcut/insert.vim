@@ -20,7 +20,7 @@ imap <C-Space>r <Esc><C-r>i
 " quit
 imap qq <Esc>:q
 " save
-imap <C-Space>s <Esc>:w<CR>i
+imap <C-s> <Esc>:w<CR>i
 " save and quit
 imap <C-Space>q <Esc>:wq
 
@@ -89,15 +89,15 @@ imap <C-Space>bl <Esc>:blast<CR>i
 
 "scroll---------------
 " scroll up
-imap <C-Space>k <Esc>10ki
+imap <C>k <Esc>10ki
 " scroll down
-imap <C-Space>j <Esc>10ji
+imap <C>j <Esc>10ji
 " scroll left
-imap <C-Space>l <Esc>20zli 
+imap <C>l <Esc>20zli 
 " scroll righ
-imap <C-Space>h <Esc>20zhi 
+imap <C>h <Esc>20zhi 
 " firts colom
-imap <C-Space>i <Esc>I
+imap <C>i <Esc>I
 " last colom
-imap <C-Space>a <Esc>A
+imap <C>a <Esc>A
 

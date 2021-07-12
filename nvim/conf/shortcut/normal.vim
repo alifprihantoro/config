@@ -1,7 +1,7 @@
 " quit
 nmap qq :q
 " save
-nmap <Space>s :w<CR>
+nmap <C-s> :w<CR>
 " plug
 nmap ; :
 
@@ -40,7 +40,7 @@ nmap <Space>f <Esc>:FZF<CR>
 
 " tab
 " NERDTreeToggle
-nmap <Space>t :NERDTreeToggle<CR>
+nmap <C-t> :NERDTreeToggle<CR>
 " --------------
 " new tab
 nmap <Space>tn :tabnew<CR>
@@ -63,6 +63,8 @@ nmap <Space>bn :badd<CR>
 nmap <Space>bf :bfirst<CR>
 " last
 nmap <Space>bl :blast<CR>
+" quit
+nmap <Space>bq :bdelete<CR>
 
 " vim wiki---------
 " toogle checklist fow vimwiki

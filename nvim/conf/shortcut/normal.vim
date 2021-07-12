@@ -42,23 +42,21 @@ nmap <Space>f <Esc>:FZF<CR>
 " NERDTreeToggle
 nmap <C-t> :NERDTreeToggle<CR>
 " --------------
-" new tab
-nmap <Space>tn :tabnew<CR>
 " next tab
-nmap <Space>n :tabnext<CR>
+nmap <Space><Space>n :tabnext<CR>
 " prev tab
-nmap <Space>p :tabprevious<CR>
+nmap <Space><Space>p :tabprevious<CR>
 " firts tab
 nmap <Space>tf :tabfirst<CR>
 " last tab
 nmap <Space>tl :tablast<CR>
+" new tab
+nmap <Space>tn :tabnew<CR>
 " ------------
 " next
-nmap <Space><Space>n :bn<CR>
+nmap <Space>n :bn<CR>
 " prev
-nmap <Space><Space>p :bp<CR>
-" new
-nmap <Space>bn :badd<CR>
+nmap <Space>p :bp<CR>
 " firts
 nmap <Space>bf :bfirst<CR>
 " last

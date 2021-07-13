@@ -1,0 +1,2 @@
+:HugoHelperLastmodIsNow
+w

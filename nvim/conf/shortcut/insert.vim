@@ -26,7 +26,7 @@ imap <C-Space>q <Esc>:wq
 
 "buffer----------
 " paste
-imap <C-Space>p <Space><Esc>"+Pa
+imap <C-Space>p <Space><Esc>Pa
 " copy word
 imap <C-Space>yw <Esc>veyi
 " copy all

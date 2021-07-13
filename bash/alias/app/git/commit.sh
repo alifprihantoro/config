@@ -1,3 +1,6 @@
+# git commit
+alias gcm='git commit -am'
+# with comment
 alias gsv='
 ga .
 statusCommit=$(git status -s)

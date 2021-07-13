@@ -43,4 +43,3 @@ gm develop
 # update repo && gm
 alias gurm='gf && gm'
 
-# ganti gitflow

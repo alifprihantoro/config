@@ -70,14 +70,6 @@ nmap <Space>bq :bdelete<CR>
 nnoremap <Space>- :VimwikiToggleListItem<CR>
 " change symbol
 nnoremap <Space>vs :VimwikiListChangeSymbolI 
-" wiki list
-nnoremap <Space>wl :VimwikiUISelect
-" to development
-nnoremap <Space>w1 :VimwikiIndex1
-" to documentation
-nnoremap <Space>w2 :VimwikiIndex2
-" to private
-nnoremap <Space>w3 :VimwikiIndex3
 
 " scroll -------
 " scroll up
@@ -108,5 +100,5 @@ nmap <Space>/ <Space>c<Space>
 " replace
 nmap <Space>s :%s /
 
-" title case
-nmap <Space>ct V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g  
+" title case word per line
+nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g  

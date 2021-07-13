@@ -32,3 +32,14 @@ command Huga source ~/storage/external-1/config/nvim/app/add_post.vim
 command Hugs source ~/storage/external-1/config/nvim/app/update.vim
 " to slug
 command Hslug call Hugotitletoslug()
+
+" Vimwiki
+ 
+" wiki list
+command Wl VimwikiUISelect
+" to development
+command Wd VimwikiIndex1
+" to documentation
+command Wdoc VimwikiIndex2
+" to private
+command Wp VimwikiIndex3

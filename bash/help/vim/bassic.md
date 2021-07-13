@@ -57,6 +57,7 @@
 - <C-o> back prev position
 - <C-i> back next position
 - <Plug>setfiletype  for file type
+- Rg for find file data
 
 ## Git
 - Ge: for git status/show commit

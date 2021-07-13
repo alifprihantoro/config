@@ -103,3 +103,6 @@ nmap <Space>gc :Gcommit<CR>
 " comment
 nmap <Space>/ <Space>c<Space>
 
+" replace ---------
+" replace
+nmap <Space>s :%s /

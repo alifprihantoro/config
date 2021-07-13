@@ -25,6 +25,8 @@ imap <C-s> <Esc>:w<CR>i
 imap <C-Space>q <Esc>:wq
 
 "buffer----------
+" paste
+imap <C-Space>p <Space><Esc>"+Pa
 " copy word
 imap <C-Space>yw <Esc>veyi
 " copy all
@@ -89,15 +91,15 @@ imap <C-Space>bl <Esc>:blast<CR>i
 
 "scroll---------------
 " scroll up
-imap <C>k <Esc>10ki
+imap <c-k> <Esc>10ki
 " scroll down
-imap <C>j <Esc>10ji
+imap <c-j> <Esc>10ji
 " scroll left
-imap <C>l <Esc>20zli 
+imap <c-l> <Esc>20zli 
 " scroll righ
-imap <C>h <Esc>20zhi 
+imap <c-h> <Esc>20zhi 
 " firts colom
-imap <C>i <Esc>I
+imap <c-i> <Esc>I
 " last colom
-imap <C>a <Esc>A
+imap <c-a> <Esc>A
 

@@ -29,7 +29,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'godlygeek/tabular', { 'for': 'markdown' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 " Wiki / to do list / note
-Plug 'vimwiki/vimwiki', { 'for': 'markdown' }
+Plug 'vimwiki/vimwiki'
 " html/emmet snippet
 Plug 'mattn/emmet-vim'
 " Excellent git wrapper

@@ -20,3 +20,7 @@ command Shi tabnew ~/storage/external-1/config/nvim/conf/style/html.vim
 command Shi2 tabnew ~/storage/external-1/config/nvim/conf/style/style.vim
 " comment 
 command Scmt tabnew ~/storage/external-1/config/nvim/conf/init/comment.vim
+
+
+" case title
+command Ct s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g 

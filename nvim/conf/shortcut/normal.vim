@@ -106,3 +106,6 @@ nmap <Space>/ <Space>c<Space>
 " replace ---------
 " replace
 nmap <Space>s :%s /
+
+" title case
+nmap <Space>ct V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g  

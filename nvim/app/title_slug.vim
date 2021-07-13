@@ -8,4 +8,5 @@ function! Hugotitletoslug()
     normal! p
     exe ':s/ /-/g'
     exe 'normal! f-r f-r '
+    normal! Vu
 endfun

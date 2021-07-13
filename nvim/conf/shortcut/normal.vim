@@ -36,7 +36,8 @@ nmap <Space>ya ggVG"+y
 nmap <Space>da ggVG"+d
 
 " fuzzy
-nmap <Space>f <Esc>:FZF<CR>
+nmap <Space>f :FZF<CR>
+nmap <Space><Space>f :Rg<CR>
 
 " tab
 " NERDTreeToggle

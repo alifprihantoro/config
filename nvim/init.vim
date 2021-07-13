@@ -23,6 +23,8 @@ source ~/storage/external-1/config/nvim/conf/style/airline.vim
 source ~/storage/external-1/config/nvim/conf/style/html.vim
 " comment 
 source ~/storage/external-1/config/nvim/conf/init/comment.vim
+" slug 
+source ~/storage/external-1/config/nvim/app/title_slug.vim
 
 " list map :arg
 " gitflow

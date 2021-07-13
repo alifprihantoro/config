@@ -24,3 +24,11 @@ command Scmt tabnew ~/storage/external-1/config/nvim/conf/init/comment.vim
 
 " case title
 command Ct s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g 
+
+" hugo ____________
+" add
+command Huga source ~/storage/external-1/config/nvim/app/add_post.vim
+" update
+command Hugs source ~/storage/external-1/config/nvim/app/update.vim
+" to slug
+command Hslug call Hugotitletoslug()

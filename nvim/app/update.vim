@@ -1,4 +1,2 @@
 :HugoHelperLastmodIsNow
-:HugoHelperSpellCheck
-:HugoHelperTitleCase
-:HugoHelperTitleToSlug
+w

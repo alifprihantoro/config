@@ -19,5 +19,5 @@ dmtpmh=$dmtp/main/head/ # head
 dmtps=$dmtp/script # script theme
 dmc=$dm/content # content
 dmcb=$dm/content/blog # content blog
-dmcl=$dm/content/lms # content lms
+dmcl=$dm/content/note # content lms
 dmk=$dm/config/_default/ # config

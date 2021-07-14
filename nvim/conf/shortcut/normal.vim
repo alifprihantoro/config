@@ -101,4 +101,4 @@ nmap <Space>/ <Space>c<Space>
 nmap <Space>s :%s /
 
 " title case word per line
-nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g  
+nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g<CR> 

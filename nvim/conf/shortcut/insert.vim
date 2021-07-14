@@ -91,15 +91,15 @@ imap <C-Space>bl <Esc>:blast<CR>i
 
 "scroll---------------
 " scroll up
-imap <c-k> <Esc>10ki
+imap <C-k> <Esc>10ki
 " scroll down
-imap <c-j> <Esc>10ji
+imap <C-j> <Esc>10ji
 " scroll left
-imap <c-l> <Esc>20zli 
+imap <C-l> <Esc>20zli 
 " scroll righ
-imap <c-h> <Esc>20zhi 
+imap <C-h> <Esc>20zhi 
 " firts colom
-imap <c-i> <Esc>I
+imap <C-Space>i <Esc>I
 " last colom
-imap <c-a> <Esc>A
+imap <C-a> <Esc>A
 

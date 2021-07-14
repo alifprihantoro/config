@@ -18,7 +18,7 @@ alias dmtps='cd $dmtps' # script
 # content
 alias dmc='cd $dmc' # content
 alias dmcb='cd $dmcb' # blog
-alias dmcl='cd $dmcl' # lms
+alias dmcn='cd $dmcn' # note
 
 alias dmk='cd $dmk' # config
 alias dmd='cd $dmd' # deploy

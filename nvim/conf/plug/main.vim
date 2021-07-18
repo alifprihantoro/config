@@ -28,6 +28,7 @@ Plug 'preservim/nerdcommenter'
 " Markdown support
 Plug 'godlygeek/tabular', { 'for': 'markdown' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+" Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
 " Wiki / to do list / note
 Plug 'vimwiki/vimwiki'
 " html/emmet snippet
@@ -57,7 +58,7 @@ Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
 Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 " " indentline
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 " " color warning
 Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'

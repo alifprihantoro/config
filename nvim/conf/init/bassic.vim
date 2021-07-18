@@ -199,3 +199,8 @@ set updatetime=100
 
 " fuzzy
 let g:fzf_layout = { 'window': '-tabnew' }
+
+" autosave
+let g:auto_save = 1   
+let g:auto_save_silent = 1 
+let g:auto_save_events = ["InsertLeave", "TextChanged"] 

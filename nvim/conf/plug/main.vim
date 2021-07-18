@@ -57,9 +57,9 @@ Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
 Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 " " indentline
-" Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 " " color warning
-" Plug 'ap/vim-css-color'
+Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'
 " -------------------------------------
 call plug#end()

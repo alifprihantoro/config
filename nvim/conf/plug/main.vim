@@ -60,6 +60,6 @@ Plug 'vim-airline/vim-airline'
 " Plug 'Yggdroot/indentLine'
 " " color warning
 " Plug 'ap/vim-css-color'
-
+Plug 'https://github.com/907th/vim-auto-save'
 " -------------------------------------
 call plug#end()

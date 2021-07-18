@@ -1,8 +1,6 @@
 " dir = .config/nvim/conf
 " Plugin install 
 source ~/storage/external-1/config/nvim/conf/plug/main.vim
-" coc init
-source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
 " bassic init
 source ~/storage/external-1/config/nvim/conf/init/bassic.vim
 " wiki init
@@ -25,6 +23,8 @@ source ~/storage/external-1/config/nvim/conf/style/html.vim
 source ~/storage/external-1/config/nvim/conf/init/comment.vim
 " slug 
 source ~/storage/external-1/config/nvim/app/title_slug.vim
+" coc init
+source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
 
 " list map :arg
 " gitflow

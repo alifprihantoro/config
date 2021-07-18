@@ -34,7 +34,6 @@ command Hugs source ~/storage/external-1/config/nvim/app/update.vim
 command Hslug call Hugotitletoslug()
 
 " Vimwiki
- 
 " wiki list
 command Wl VimwikiUISelect
 " to development

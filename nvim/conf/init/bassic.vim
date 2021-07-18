@@ -49,7 +49,7 @@ set wildmenu wildmode=full
 
 " markdown
 " https://github.com/plasticboy/vim-markdown
-let g:vim_markdown_folding_disabled = 1
+" let g:vim_markdown_folding_disabled = 1
 
 " auto switch current working directory to current buffer (not recommended)
 autocmd BufEnter * :cd %:p:h
@@ -130,7 +130,7 @@ au BufNewFile,BufRead *.es6 setf javascript
 " TypeScript
 au BufNewFile,BufRead *.tsx setf typescript
 " Markdown
-au BufNewFile,BufRead *.md set filetype=markdown
+" au BufNewFile,BufRead *.md set filetype=markdown
 " Flow
 au BufNewFile,BufRead *.flow set filetype=javascript
 

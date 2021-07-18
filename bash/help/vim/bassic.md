@@ -58,6 +58,8 @@
 - <C-i> back next position
 - <Plug>setfiletype  for file type
 - Rg for find file data
+- CocCommand snippets.editSnippets
+- indent off agar link
 
 ## Git
 - Ge: for git status/show commit

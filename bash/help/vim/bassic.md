@@ -60,6 +60,7 @@
 - Rg for find file data
 - CocCommand snippets.editSnippets
 - indent off agar link
+- setfiletype markdown
 
 ## Git
 - Ge: for git status/show commit

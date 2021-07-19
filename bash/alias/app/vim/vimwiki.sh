@@ -11,16 +11,16 @@ alias dwp='cd $wp'
 
 # use 
 alias wl='dwl
-v index.md
+v index.wiki
 '
 alias w1='dwd
-v index.md
+v index.wiki
 '
 alias w2='dwdo
-v index.md
+v index.wiki
 '
 alias w3='dwp
-v index.md
+v index.wiki
 '
 
 # fzf

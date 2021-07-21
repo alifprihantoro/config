@@ -11,34 +11,14 @@ alias dwp='cd $wp'
 
 # use 
 alias wl='dwl
-v index.wiki
+vim index.wiki
 '
 alias w1='dwd
-v index.wiki
+vim index.wiki
 '
 alias w2='dwdo
-v index.wiki
+vim index.wiki
 '
 alias w3='dwp
-v index.wiki
+vim index.wiki
 '
-
-# fzf
-alias wlf='
-dwl
-vf
-'
-alias wdf='
-dwd
-vf
-'
-alias wdof='
-dwdo
-vf
-'
-
-alias wpf='
-dwp
-vf
-'
-

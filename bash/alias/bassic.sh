@@ -18,13 +18,6 @@ alias tc='touch'
 alias echo='shopt -s xpg_echo && echo'
 alias q='exit -y'
 alias ..='cd ..'
-alias cf='cd_w_fzf=$(find * -type d | fzf)
-while [ "$cd_w_fzf" != "" ]
-do 
-cd $cd_w_fzf
-break
-done
-'
 alias w='cd $de/vimwiki
 v index.md'
 #alias ubun='~/ubuntu/./su.sh'

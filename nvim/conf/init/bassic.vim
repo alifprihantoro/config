@@ -139,7 +139,7 @@ au BufNewFile,BufRead *.flow set filetype=javascript
 "-------------------------------------------------------------------------------
 
 set cursorline
-"set cursorcolumn
+set cursorcolumn
 
 " Set cursor line color on visual mode
 " highlight Visual cterm=NONE ctermbg=red ctermfg=NONE guibg=Grey

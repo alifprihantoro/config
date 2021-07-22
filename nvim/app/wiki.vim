@@ -1,65 +1,22 @@
-" some plug not installed                   |
-" if you want use it uncommnet              |
-" __________________________________________|
-call plug#begin('~/.config/plugin')
-" ---------- COC plug
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-snippets', 'coc-emmet']  " list of CoC extensions needed
+i
+# jurnal syukur
+Alhamdulillah sudah :
+1) 
 
-" ---------- js plug
-" these two plugins will add highlighting and indenting to JSX and TSX files.
-Plug 'yuezk/vim-js', { 'for': 'javascript' } 
-Plug 'HerringtonDarkholme/yats.vim', { 'for': 'javascript' } 
-Plug 'maxmellon/vim-jsx-pretty', { 'for': 'javascript' } 
-" js snippet
-Plug 'grvcoelho/vim-javascript-snippets', { 'for': 'javascript' } 
+# katanya ingin
+1) 
 
-" ---------- other ex
-"  toml
-Plug 'cespare/vim-toml', { 'for': 'toml' } 
-" hugo
-Plug 'robertbasic/vim-hugo-helper' , { 'for': 'markdown' }
+# apa ynang kamu lakukan hari ini
+1) 
 
-" ---------- bassic
-Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
-" comment
-Plug 'preservim/nerdcommenter'
-" Markdown support
-Plug 'godlygeek/tabular', { 'for': 'markdown' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-" Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
-" Wiki / to do list / note
-Plug 'vimwiki/vimwiki'
-" html/emmet snippet
-Plug 'mattn/emmet-vim'
-" Excellent git wrapper
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
+# penilaian
+1) 
 
-" ---------- File
-" NERD Tree - tree explorer
-" (loaded on first invocation of the command)
-  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-" File Explorer with Icons
-  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-  Plug 'ryanoasis/vim-devicons', { 'on':  'NERDTreeToggle' }
-Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
-            \ Plug 'Xuyuanp/nerdtree-git-plugin' , { 'on':  'NERDTreeToggle' }|
-" File Search
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-  Plug 'junegunn/fzf.vim'
+# saran
+1)  
 
-" " ---------- Theme
-" " color
-" Plug 'chrisbra/Colorizer'
-" " vim-airline
-" " Enhanced statusline
-Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" " indentline
-" Plug 'Yggdroot/indentLine'
-" " color warning
-Plug 'ap/vim-css-color'
-Plug 'https://github.com/907th/vim-auto-save'
-" -------------------------------------
-call plug#end()
+# apa yang telah dipelajari
+1) 
+
+# description
+1) 

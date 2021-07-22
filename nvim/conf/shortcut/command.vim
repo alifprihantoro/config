@@ -45,3 +45,5 @@ command Wd VimwikiIndex1
 command Wdoc VimwikiIndex2
 " to private
 command Wp VimwikiIndex3
+" diary
+command Wdiary source ~/storage/external-1/config/nvim/app/wiki.vim

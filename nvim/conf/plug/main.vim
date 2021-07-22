@@ -26,11 +26,9 @@ Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 " comment
 Plug 'preservim/nerdcommenter'
 " Markdown support
-Plug 'godlygeek/tabular', { 'for': 'markdown' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-" Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
-" Wiki / to do list / note
-" Plug 'vimwiki/vimwiki'
+" Plug 'godlygeek/tabular', { 'for': 'markdown' }
+" Plug 'plasticboy/vim-markdown'
+Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
 " html/emmet snippet
 Plug 'mattn/emmet-vim'
 " Excellent git wrapper
@@ -49,6 +47,8 @@ Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
 " File Search
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
+" Wiki / to do list / note
+Plug 'vimwiki/vimwiki'
 
 " " ---------- Theme
 " " color
@@ -58,7 +58,7 @@ Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
 Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 " " indentline
-" Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 " " color warning
 Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'

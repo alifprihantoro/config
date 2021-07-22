@@ -204,3 +204,7 @@ let g:fzf_layout = { 'window': '-tabnew' }
 let g:auto_save = 1   
 let g:auto_save_silent = 1 
 let g:auto_save_events = ["InsertLeave", "TextChanged"] 
+
+" md
+set conceallevel=2
+

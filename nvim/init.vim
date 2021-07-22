@@ -1,10 +1,10 @@
 " dir = .config/nvim/conf
 " Plugin install 
 source ~/storage/external-1/config/nvim/conf/plug/main.vim
-" bassic init
-source ~/storage/external-1/config/nvim/conf/init/bassic.vim
 " wiki init
 source ~/storage/external-1/config/nvim/conf/init/wiki.vim
+" bassic init
+source ~/storage/external-1/config/nvim/conf/init/bassic.vim
 " short code on insert mode
 source ~/storage/external-1/config/nvim/conf/shortcut/insert.vim
 " short code normal mode
@@ -32,3 +32,5 @@ source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
 "set cocdisable
 "
  
+let g:vimwiki_global_ext = 0 
+

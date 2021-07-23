@@ -13,7 +13,7 @@ Plug 'yuezk/vim-js', { 'for': 'javascript' }
 Plug 'HerringtonDarkholme/yats.vim', { 'for': 'javascript' } 
 Plug 'maxmellon/vim-jsx-pretty', { 'for': 'javascript' } 
 " js snippet
-Plug 'grvcoelho/vim-javascript-snippets', { 'for': 'javascript' } 
+Plug 'grvcoelho/vim-javascript-snippets' 
 
 " ---------- other ex
 "  toml
@@ -58,7 +58,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 " " indentline
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 " " color warning
 Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'

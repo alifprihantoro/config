@@ -5,6 +5,7 @@ source ~/storage/external-1/config/nvim/conf/plug/main.vim
 source ~/storage/external-1/config/nvim/conf/init/wiki.vim
 " bassic init
 source ~/storage/external-1/config/nvim/conf/init/bassic.vim
+
 " short code on insert mode
 source ~/storage/external-1/config/nvim/conf/shortcut/insert.vim
 " short code normal mode
@@ -13,6 +14,9 @@ source ~/storage/external-1/config/nvim/conf/shortcut/normal.vim
 source ~/storage/external-1/config/nvim/conf/shortcut/visual.vim
 " short code on command mode
 source ~/storage/external-1/config/nvim/conf/shortcut/command.vim
+" short code on command mode dir
+source ~/storage/external-1/config/nvim/conf/shortcut/dir.command.vim
+
 " theme
 source ~/storage/external-1/config/nvim/conf/style/dracula.vim
 " airline

@@ -4,6 +4,8 @@ nmap qq :q
 nmap <C-s> :w<CR>
 " plug
 nmap ; :
+" refres
+nmap <Space>r <C-r>:cd %:p:h<CR> 
 
 " buffer--------
 " copy all
@@ -36,8 +38,15 @@ nmap <Space>ya ggVG"+y
 nmap <Space>da ggVG"+d
 
 " fuzzy
+" just title
 nmap <Space>f :FZF<CR>
+" with body
 nmap <Space><Space>f :Rg<CR>
+" just title and dir now
+nmap <C-Space>f :cd %:p:h<CR>:FZF<CR>
+" with body and dir now
+nmap <C-Space><Space>f :cd %:p:h<CR>:Rg<CR>
+
 
 " tab
 " NERDTreeToggle

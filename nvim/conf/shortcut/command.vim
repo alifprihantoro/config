@@ -46,4 +46,8 @@ command Wdoc VimwikiIndex2
 " to private
 command Wp VimwikiIndex3
 " diary
-command Wdiary source ~/storage/external-1/config/nvim/app/wiki.vim
+command Diarydir e ~/storage/external-1/wiki/private/diary/diary.wiki
+" add diary
+command Diaryadd source ~/storage/external-1/config/nvim/app/wiki.vim
+" add link diary
+command Diarylink VimwikiDiaryGenerateLinks

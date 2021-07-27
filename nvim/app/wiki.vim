@@ -1,3 +1,4 @@
+:VimwikiMakeDiaryNote
 i
 # jurnal syukur
 Alhamdulillah sudah :

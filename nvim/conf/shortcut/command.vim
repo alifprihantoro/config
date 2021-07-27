@@ -29,7 +29,7 @@ command Ct s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g
 " add
 command Huga source ~/storage/external-1/config/nvim/app/add_post.vim
 " update
-command Hugs source ~/storage/external-1/config/nvim/app/update.vim
+command Hu HugoHelperLastmodIsNow
 " to slug
 command Hslug call Hugotitletoslug()
 

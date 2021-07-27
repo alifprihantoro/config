@@ -49,7 +49,7 @@ set wildmenu wildmode=full
 
 " markdown
 " https://github.com/plasticboy/vim-markdown
-" let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_disabled = 1
 
 " auto switch current working directory to current buffer (not recommended)
 autocmd BufEnter * :cd %:p:h
@@ -207,4 +207,3 @@ let g:auto_save_events = ["InsertLeave", "TextChanged"]
 
 " md
 set conceallevel=2
-

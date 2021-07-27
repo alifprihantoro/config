@@ -61,6 +61,7 @@
 - CocCommand snippets.editSnippets
 - indent off agar link
 - setfiletype markdown
+- cd %:p:h (for go to dir now files)
 
 ## Git
 - Ge: for git status/show commit

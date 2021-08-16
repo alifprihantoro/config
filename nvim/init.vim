@@ -1,34 +1,34 @@
 " dir = .config/nvim/conf
 " Plugin install 
-source ~/storage/external-1/config/nvim/conf/plug/main.vim
+source ~/.config/nvim/conf/plug/main.vim
 " wiki init
-source ~/storage/external-1/config/nvim/conf/init/wiki.vim
+source ~/.config/nvim/conf/init/wiki.vim
 " bassic init
-source ~/storage/external-1/config/nvim/conf/init/bassic.vim
+source ~/.config/nvim/conf/init/bassic.vim
 
 " short code on insert mode
-source ~/storage/external-1/config/nvim/conf/shortcut/insert.vim
+source ~/.config/nvim/conf/shortcut/insert.vim
 " short code normal mode
-source ~/storage/external-1/config/nvim/conf/shortcut/normal.vim
+source ~/.config/nvim/conf/shortcut/normal.vim
 " short code on visual mode
-source ~/storage/external-1/config/nvim/conf/shortcut/visual.vim
+source ~/.config/nvim/conf/shortcut/visual.vim
 " short code on command mode
-source ~/storage/external-1/config/nvim/conf/shortcut/command.vim
+source ~/.config/nvim/conf/shortcut/command.vim
 " short code on command mode dir
-source ~/storage/external-1/config/nvim/conf/shortcut/dir.command.vim
+source ~/.config/nvim/conf/shortcut/dir.command.vim
 
 " theme
-source ~/storage/external-1/config/nvim/conf/style/dracula.vim
+source ~/.config/nvim/conf/style/dracula.vim
 " airline
-source ~/storage/external-1/config/nvim/conf/style/airline.vim
+source ~/.config/nvim/conf/style/airline.vim
 " higligh
-source ~/storage/external-1/config/nvim/conf/style/html.vim
+source ~/.config/nvim/conf/style/html.vim
 " comment 
-source ~/storage/external-1/config/nvim/conf/init/comment.vim
+source ~/.config/nvim/conf/init/comment.vim
 " slug 
-source ~/storage/external-1/config/nvim/app/title_slug.vim
+source ~/.config/nvim/app/title_slug.vim
 " coc init
-source ~/storage/external-1/config/nvim/conf/init/tab-coc.vim
+source ~/.config/nvim/conf/init/tab-coc.vim
 
 " list map :arg
 " gitflow

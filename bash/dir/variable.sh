@@ -1,6 +1,6 @@
 de=~/storage/external-1
-zzz=$de/.zzz
-dc=$de/config
+zzz=~/zzz
+dc=~/.config
 db=$dc/bash
 dv=$dc/nvim
 ssh=$de/.ssh

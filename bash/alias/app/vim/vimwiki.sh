@@ -1,5 +1,5 @@
 # dir
-wl=$de/wiki
+wl=~/wiki
 wd=$wl/development
 wdo=$wl/docs
 wp=$wl/private

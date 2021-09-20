@@ -7,6 +7,7 @@ ssh=$de/.ssh
 
 # web muryp
 dw=$zzz/web # dir web
+dm2=$dw/muryp2 # default dir muryp
 dm=$dw/muryp # default dir muryp
 dmd=$dw/deploy-muryp/ # deploy dir
 dmsi=$dm/static/img/public # img

@@ -4,9 +4,8 @@
 #web muryp blog
 alias dw='cd $dw' 
 alias mury='cd $zzz/web/muryp/ && '
-alias dm='cd  $zzz/web/muryp/'
-# static
-alias dmsi='cd  $dmsi' # img
+alias dm='cd  $dm'
+alias dm2='cd $dm2'
 alias dmss='cd $dmss' # script
 alias dmsp='cd $dmsp' # pages api
 alias dmsb='cd $dmsb' # blog api

@@ -35,6 +35,3 @@ source ~/.config/nvim/conf/init/tab-coc.vim
 " nertThree conf
 "set cocdisable
 "
- 
-let g:vimwiki_global_ext = 0 
-

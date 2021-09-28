@@ -5,6 +5,22 @@ db=$dc/bash
 dv=$dc/nvim
 ssh=$de/.ssh
 
+# new muryp
+dmn=$dw/muryp-new # default dir muryp
+dmnd=$dw/deploy-muryp-new/ # deploy dir
+dmnsi=$dmn/static/img/public # img
+dmnss=$dmn/static/script/public # script
+dmnsp=$dmn/static/pages-api # pages api
+dmnsb=$dmn/static/blog-api # blog api
+dmnt=$dmn/themes/muryp-new # theme
+dmntp=$dmnt/layouts/partials # partial
+dmntpmh=$dmntp/main/head/ # head
+dmntps=$dmntp/script # script theme
+dmnc=$dmn/content # content
+dmncb=$dmn/content/blog # content blog
+dmncn=$dmn/content/note # content lms
+dmnk=$dmn/config/_default/ # config
+
 # web muryp
 dw=$zzz/web # dir web
 dm2=$dw/muryp2 # default dir muryp

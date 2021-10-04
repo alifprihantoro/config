@@ -31,7 +31,7 @@ vmap <Space>s y:%s /<C-R>"/
 
 " complet -----------
 " complete {}
-vmap { di{<Esc>pi
+vmap <Space>{ di{<Esc>pi
 " complete <>
 " vmap < di<<Esc>pi
 " complete ""

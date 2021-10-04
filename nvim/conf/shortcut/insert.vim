@@ -10,7 +10,7 @@ imap <C-Space>v <Esc><C-v>
 " normal with :
 imap :: <Esc>:
 " normal jj
-imap jj <Esc>
+imap jj <Esc>:w<CR>
 "---------
 " undo
 imap <C-Space>u <Esc>ui

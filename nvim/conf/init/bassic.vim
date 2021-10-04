@@ -157,53 +157,8 @@ if &term =~ "screen"
 endif
 
 "-------------------------------------------------------------------------------
-" Other plugins
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 "-------------------------------------------------------------------------------
-
-" vim-go
-let g:go_disable_autoinstall = 1
-
-" vim-json
-let g:vim_json_syntax_conceal = 0
-
-" Status line
-if !exists('*fugitive#statusline')
-  set statusline=%F\ %m%r%h%w%y%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}[L%l/%L,C%03v]
-  set statusline+=%=
-  set statusline+=%{fugitive#statusline()}
-endif
-
-" JSX
-let g:jsx_ext_required = 0
-
-" Tern
-" Disable auto preview window
-set completeopt-=preview
-
-" localvimrc
-let g:localvimrc_ask = 0
-
-" open new split panes to right and below
-set splitright
-set splitbelow
-
-" no swapfile
-set noswapfile
-set directory^=$HOME/.vim/tmp/
-
-" try cursor
-set directory^=$HOME/.vim/tmp//
-
-" git gitgutter
-set updatetime=100
-
-" fuzzy
-let g:fzf_layout = { 'window': '-tabnew' }
-
-" autosave
-let g:auto_save = 1   
-let g:auto_save_silent = 1 
-let g:auto_save_events = ["InsertLeave", "TextChanged"] 
-
-" md
-set conceallevel=2
+"

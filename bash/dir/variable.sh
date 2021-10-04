@@ -6,6 +6,7 @@ dv=$dc/nvim
 ssh=$de/.ssh
 
 # new muryp
+dw=$zzz/web # dir web
 dmn=$dw/muryp-new # default dir muryp
 dmnd=$dw/deploy-muryp-new/ # deploy dir
 dmnsi=$dmn/static/img/public # img
@@ -22,7 +23,6 @@ dmncn=$dmn/content/note # content lms
 dmnk=$dmn/config/_default/ # config
 
 # web muryp
-dw=$zzz/web # dir web
 dm2=$dw/muryp2 # default dir muryp
 dm=$dw/muryp # default dir muryp
 dmd=$dw/deploy-muryp/ # deploy dir

@@ -21,3 +21,13 @@ alias ..='cd ..'
 alias w='cd $de/vimwiki
 v index.md'
 #alias ubun='~/ubuntu/./su.sh'
+
+alias portrait='
+rm ~/.termux/termux.properties
+mv ~/.termux/portrait ~/.termux/termux.properties
+'
+
+alias portrait='
+rm ~/.termux/termux.properties
+mv ~/.termux/landscape ~/.termux/termux.properties
+'

@@ -24,10 +24,10 @@ v index.md'
 
 alias portrait='
 rm ~/.termux/termux.properties
-mv ~/.termux/portrait ~/.termux/termux.properties
+cp ~/.termux/portrait ~/.termux/termux.properties
 '
 
-alias portrait='
+alias landscape='
 rm ~/.termux/termux.properties
-mv ~/.termux/landscape ~/.termux/termux.properties
+cp ~/.termux/landscape ~/.termux/termux.properties
 '

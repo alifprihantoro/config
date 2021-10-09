@@ -111,3 +111,6 @@ nmap <Space>s :%s /
 
 " title case word per line
 nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g<CR> 
+
+" pretier
+nmap ,f  <Plug>(coc-format-selected)

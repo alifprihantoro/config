@@ -42,3 +42,5 @@ vmap [ di[<Esc>pi
 vmap ' di'<Esc>pi
 " complete ``
 vmap ` di`<Esc>pi
+" Pretier
+vmap ,f  <Plug>(coc-format-selected)

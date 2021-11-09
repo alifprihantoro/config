@@ -4,8 +4,7 @@ alias csass='sass --style=compressed '
 # alias pribadi
 alias muryhost='hosting && cd muryp/'
 alias murysass='
-muryp
-cd static/script/public/
+dmntps
 mysass scss:css
 '
 alias murytheme='

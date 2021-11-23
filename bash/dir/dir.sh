@@ -1,28 +1,7 @@
 ## ====== My Direktori
 ### ubah sesuai direktori anda
-
-#web muryp blog
-alias dw='cd $dw' 
-alias mury='cd $zzz/web/muryp/ && '
-alias dm='cd  $dm'
-alias dm2='cd $dm2'
-alias dmss='cd $dmss' # script
-alias dmsp='cd $dmsp' # pages api
-alias dmsb='cd $dmsb' # blog api
-
-# theme
-alias dmt='cd $dmt' # theme 
-alias dmtp='cd $dmtp' # partial
-alias dmtpmh='cd $dmtpmh' # head
-alias dmtps='cd $dmtps' # script
-# content
-alias dmc='cd $dmc' # content
-alias dmcb='cd $dmcb' # blog
-alias dmcn='cd $dmcn' # note
-
-alias dmk='cd $dmk' # config
-alias dmd='cd $dmd' # deploy
-
+# muryp
+source ~/zzz/web/muryp-new/build/dir.sh
 
 #lain
 alias dl='cd ~/storage/shared/'

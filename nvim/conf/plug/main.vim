@@ -3,7 +3,11 @@
 " if you want use it uncommnet              |
 " __________________________________________|
 call plug#begin('~/.config/plugin')
+" --- my snippeet
+Plug 'alifprihantoro/vim-muryp-snippet'
+
 " ---------- COC plug
+" Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-snippets', 'coc-emmet']  " list of CoC extensions needed
 

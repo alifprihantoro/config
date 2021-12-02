@@ -1,6 +1,6 @@
 #getHugo="source $getAlias/gohugo/"
 ## ====== hugo pribadi
-alias st='hugo server --minify'
+alias st='hugo server --minify --noHTTPCache'
 #alias buka='$getHugo/hugoTambah.sh && nano content/$file/$url.md' #img
 #alias add='$getHugo/hugoTambah.sh' #img
 #alias Ganti='$getHugo/hugoTambah.sh' #all

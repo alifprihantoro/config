@@ -114,3 +114,8 @@ nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g<CR>
 
 " pretier
 nmap ,f  <Plug>(coc-format-selected)
+
+" buka tutup / folding
+nmap <space>zc :set nofoldenable
+nmap <space>zf :set foldlevel=99
+

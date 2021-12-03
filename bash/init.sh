@@ -15,6 +15,7 @@ for sumber_completion in $default_bash_dir/completions/*.sh; do
 done
 
 # muryp
+source $dw/muryp-new/build/dir.sh
 source $dmb/alias.sh
 
 # fzf end

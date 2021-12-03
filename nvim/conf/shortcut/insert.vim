@@ -11,6 +11,7 @@ imap <C-Space>v <Esc><C-v>
 imap ;; <Esc>:
 " normal jj
 imap jj <Esc>
+imap jl j<Right>
 "---------
 " undo
 imap <C-Space>u <Esc>ui
@@ -19,6 +20,7 @@ imap <C-Space>r <Esc><C-r>i
 "----------
 " quit
 imap qq <Esc>:q
+imap qq q<right>
 " save
 imap <C-s> <Esc>:w<CR>i
 " save and quit

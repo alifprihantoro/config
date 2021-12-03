@@ -177,3 +177,4 @@ function! s:Paste()
 
   call tagalong#Apply()
 endfunction
+

@@ -116,6 +116,10 @@ nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g<CR>
 nmap ,f  <Plug>(coc-format-selected)
 
 " buka tutup / folding
-nmap <space>zc :set nofoldenable
-nmap <space>zf :set foldlevel=99
+" close all folding
+nmap <space>zc :set nofoldenable<CR> 
+" create folding in html
+nmap <space>zf vtazf 
+" create folding in css/sass/js
+nmap <space>zt v%zf
 

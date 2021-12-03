@@ -161,5 +161,19 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 "-------------------------------------------------------------------------------
 let g:auto_save = 1  " enable AutoSave on Vim startup
 set noswapfile
-setlocal foldmethod=indent
-set nofoldenable
+" setlocal foldmethod=indent
+" set nofoldenable
+
+" ------------- tag change
+" The `<c-u>` removes the current visual mode, so a function can be called
+xnoremap <buffer> p :<c-u>call <SID>Paste()<cr>
+
+" The <SID> above is the same as the s: here
+function! s:Paste()
+  call tagalong#Trigger()
+
+  " gv reselects the previously-selected area, and then we just paste
+  normal! gvp
+
+  call tagalong#Apply()
+endfunction

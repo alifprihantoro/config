@@ -66,5 +66,11 @@ Plug 'vim-airline/vim-airline'
 " " color warning
 Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'
-" -------------------------------------
+
+" ---------- indentLine
+Plug 'lukas-reineke/indent-blankline.nvim'
+
+" --------- tag change
+Plug 'AndrewRadev/tagalong.vim'
+"-------------------------------------
 call plug#end()

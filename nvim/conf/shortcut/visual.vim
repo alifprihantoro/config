@@ -44,3 +44,5 @@ vmap ' di'<Esc>pi
 vmap ` di`<Esc>pi
 " Pretier
 vmap ,f  <Plug>(coc-format-selected)
+" replace
+vmap <SPACE>s y:s

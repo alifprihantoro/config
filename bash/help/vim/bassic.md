@@ -62,6 +62,8 @@
 - indent off agar link
 - setfiletype markdown
 - cd %:p:h (for go to dir now files)
+- % : got to next/prev ex : atau {},(),<>,div /div, 
+- vat : block <tag> ti </tag>
 
 ## Git
 - Ge: for git status/show commit

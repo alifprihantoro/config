@@ -31,13 +31,13 @@ Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 Plug 'preservim/nerdcommenter'
 " Markdown support
 Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
+" Plug 'plasticboy/vim-markdown'
 Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
 " html/emmet snippet
 Plug 'mattn/emmet-vim'
 " Excellent git wrapper
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
+" Plug 'tpope/vim-fugitive'
+" Plug 'airblade/vim-gitgutter'
 
 " ---------- File
 " NERD Tree - tree explorer
@@ -56,19 +56,19 @@ Plug 'vimwiki/vimwiki'
 
 " " ---------- Theme
 " " color
-" Plug 'chrisbra/Colorizer'
+Plug 'chrisbra/Colorizer'
 " " vim-airline
 " " Enhanced statusline
 Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 " " indentline
-" Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 " " color warning
 Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'
 
 " ---------- indentLine
-Plug 'lukas-reineke/indent-blankline.nvim'
+" Plug 'lukas-reineke/indent-blankline.nvim'
 
 " --------- tag change
 Plug 'AndrewRadev/tagalong.vim'

@@ -178,3 +178,5 @@ function! s:Paste()
   call tagalong#Apply()
 endfunction
 
+" -------------- indent
+let g:indentLine_char_list = ['|', '¦', '┆', '┊', '/']

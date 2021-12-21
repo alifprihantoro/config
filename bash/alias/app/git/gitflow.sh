@@ -3,7 +3,6 @@
 alias gbf='
 gb develop
 gb hotfix
-gb post
 '
 #git flow start
 gfs () {

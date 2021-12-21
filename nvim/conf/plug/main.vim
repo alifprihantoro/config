@@ -9,12 +9,16 @@ Plug 'alifprihantoro/vim-muryp-snippet'
 " ---------- COC plug
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-snippets', 'coc-emmet']  " list of CoC extensions needed
+" list of CoC extensions needed
+" let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-prettier', 'coc-snippets', 'coc-emmet']
 
 " ---------- js plug
 " these two plugins will add highlighting and indenting to JSX and TSX files.
+" syntax hi
 Plug 'yuezk/vim-js', { 'for': 'javascript' } 
-Plug 'HerringtonDarkholme/yats.vim', { 'for': 'javascript' } 
+" syntax ts hi
+Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' } 
+" jsx hi
 Plug 'maxmellon/vim-jsx-pretty', { 'for': 'javascript' } 
 " js snippet
 Plug 'grvcoelho/vim-javascript-snippets' 
@@ -56,19 +60,19 @@ Plug 'vimwiki/vimwiki'
 
 " " ---------- Theme
 " " color
-Plug 'chrisbra/Colorizer'
+" Plug 'chrisbra/Colorizer'
 " " vim-airline
 " " Enhanced statusline
 Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline-themes'
 " " indentline
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 " " color warning
 Plug 'ap/vim-css-color'
 Plug 'https://github.com/907th/vim-auto-save'
 
 " ---------- indentLine
-" Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
 
 " --------- tag change
 Plug 'AndrewRadev/tagalong.vim'

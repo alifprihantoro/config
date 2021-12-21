@@ -19,16 +19,6 @@ command Sthem tabnew ~/.config/nvim/conf/style/them.vim
 command Shi tabnew ~/.config/nvim/conf/style/html.vim
 command Shi2 tabnew ~/.config/nvim/conf/style/style.vim
 " comment 
-command Scmt tabnew ~/.config/nvim/conf/init/comment.vim
-
-
-" case title
-command Ct s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g 
-
-" hugo ____________
-" add
-command Huga source ~/.config/nvim/app/add_post.vim
-" update
 command Hu HugoHelperLastmodIsNow
 " to slug
 command Hslug call Hugotitletoslug()
@@ -51,3 +41,5 @@ command Diarydir e ~/wiki/private/diary/diary.wiki
 command Diaryadd source ~/.config/nvim/app/wiki.vim
 " add link diary
 command Diarylink VimwikiDiaryGenerateLinks
+" Prettier
+command Prettier Neoformat

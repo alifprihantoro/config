@@ -5,6 +5,7 @@
 call plug#begin('~/.config/plugin')
 " --- my snippeet
 Plug 'alifprihantoro/vim-muryp-snippet'
+Plug 'sbdchd/neoformat'
 
 " ---------- COC plug
 " Use release branch (recommend)

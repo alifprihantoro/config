@@ -113,7 +113,7 @@ nmap <Space>s :%s /
 nmap <Space>cw V:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g<CR> 
 
 " pretier
-nmap ,f  <Plug>(coc-format-selected)
+nmap ,f  <Plug>Neoformat
 
 " buka tutup / folding
 " close all folding

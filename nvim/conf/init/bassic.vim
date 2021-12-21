@@ -157,8 +157,6 @@ if &term =~ "screen"
 endif
 
 "-------------------------------------------------------------------------------
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-"-------------------------------------------------------------------------------
 let g:auto_save = 1  " enable AutoSave on Vim startup
 set noswapfile
 " setlocal foldmethod=indent

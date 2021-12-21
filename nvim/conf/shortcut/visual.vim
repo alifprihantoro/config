@@ -43,6 +43,6 @@ vmap ' di'<Esc>pi
 " complete ``
 vmap ` di`<Esc>pi
 " Pretier
-vmap ,f  <Plug>(coc-format-selected)
+vmap ,f  <Plug>Neoformat
 " replace
 vmap <SPACE>s y:s

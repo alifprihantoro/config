@@ -5,8 +5,9 @@ function! Hugotitletoslug()
     exe '/^slug'
     normal! I
     normal! "_Dislug: 
+    normal! A
     normal! p
     exe ':s/ /-/g'
-    exe 'normal! f-r f-r '
-    normal! Vu
+    exe 'normal! f-r'
+    " normal! Vu
 endfun

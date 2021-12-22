@@ -18,10 +18,12 @@ command Sthem tabnew ~/.config/nvim/conf/style/them.vim
 " html higligh
 command Shi tabnew ~/.config/nvim/conf/style/html.vim
 command Shi2 tabnew ~/.config/nvim/conf/style/style.vim
-" comment 
+" update content 
 command Hu HugoHelperLastmodIsNow
 " to slug
 command Hslug call Hugotitletoslug()
+" to slug
+command Huga source ~/.config/nvim/app/add_post.vim
 
 " Vimwiki
 " plugin on wiki
@@ -43,3 +45,6 @@ command Diaryadd source ~/.config/nvim/app/wiki.vim
 command Diarylink VimwikiDiaryGenerateLinks
 " Prettier
 command Prettier Neoformat
+" Prettier
+command Prettierc CocCommand prettier.formatFile
+

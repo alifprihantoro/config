@@ -57,7 +57,7 @@ Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
 " Wiki / to do list / note
-Plug 'vimwiki/vimwiki'
+Plug 'vimwiki/vimwiki', { 'for': 'wiki' }
 
 " " ---------- Theme
 " " color

@@ -36,7 +36,7 @@ Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 Plug 'preservim/nerdcommenter'
 " Markdown support
 Plug 'godlygeek/tabular'
-" Plug 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown'
 Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
 " html/emmet snippet
 Plug 'mattn/emmet-vim'

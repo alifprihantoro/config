@@ -123,3 +123,5 @@ nmap <space>zf vtazf
 " create folding in css/sass/js
 nmap <space>zt v%zf
 
+" enter link
+autocmd FileType markdown nmap <CR> gx

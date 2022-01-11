@@ -14,3 +14,5 @@ alias dc='cd $dc'
 alias db='cd $db' 
 alias dv='cd $dv' 
 
+# sementara
+alias dp='cd $dw/portfolio'

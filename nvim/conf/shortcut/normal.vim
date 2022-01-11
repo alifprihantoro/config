@@ -5,7 +5,8 @@ nmap <C-s> :w<CR>
 " plug
 nmap ; :
 " refres
-nmap <Space>r <C-r>:cd %:p:h<CR> 
+nmap <Space>r :edit!
+" nmap <Space>r <C-r>:cd %:p:h<CR>
 
 " buffer--------
 " copy all
@@ -125,3 +126,4 @@ nmap <space>zt v%zf
 
 " enter link
 autocmd FileType markdown nmap <CR> gx
+

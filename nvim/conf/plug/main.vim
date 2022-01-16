@@ -5,6 +5,7 @@
 call plug#begin('~/.config/plugin')
 " --- my snippeet
 Plug 'alifprihantoro/vim-muryp-snippet'
+" Plug 'alifprihantoro/coba-plug'
 Plug 'sbdchd/neoformat'
 
 " ---------- COC plug

@@ -1,7 +1,5 @@
 #_________start git
 source /data/data/com.termux/files/home/.myconf/alias/bassic.sh
-source /data/data/com.termux/files/home/.myconf/alias/init.sh
-source /data/data/com.termux/files/home/.myconf/bash/init.sh
 source /data/data/com.termux/files/home/.myconf/bash/theme.sh
 source /data/data/com.termux/files/home/.myconf/dir/dir.sh
 source /data/data/com.termux/files/home/.myconf/dir/variable.sh

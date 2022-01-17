@@ -2,7 +2,6 @@
 source /data/data/com.termux/files/home/.myconf/alias/bassic.sh
 source /data/data/com.termux/files/home/.myconf/bash/theme.sh
 source /data/data/com.termux/files/home/.myconf/dir/backward.sh
-source /data/data/com.termux/files/home/.myconf/dir/dir.sh
 source /data/data/com.termux/files/home/.myconf/dir/forwad.sh
 source /data/data/com.termux/files/home/.myconf/dir/variable.sh
 source /data/data/com.termux/files/home/.myconf/fzf/cp.sh
@@ -10,6 +9,8 @@ source /data/data/com.termux/files/home/.myconf/fzf/dir.sh
 source /data/data/com.termux/files/home/.myconf/fzf/mv.sh
 source /data/data/com.termux/files/home/.myconf/fzf/rm.sh
 source /data/data/com.termux/files/home/.myconf/fzf/vim.sh
+source /data/data/com.termux/files/home/.myconf/web_alias/alias.sh
+source /data/data/com.termux/files/home/.myconf/web_alias/muryp.sh
 source /data/data/com.termux/files/home/.myconf/alias/auto/a.scss.sh
 source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/chmod.aliases.sh
 source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/general.aliases.sh

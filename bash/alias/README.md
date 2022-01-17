@@ -14,8 +14,8 @@ Karena saya menggunakan android, saya mendapat keterbatasan, antara lain keyboar
 salin kode berikut ke bash. (jika di termux ada di `../usr/etc/bash.bashrc`)
 
 ```bash
-getAlias=~/<lokasiAlias>
-source $getAlias/alias.sh 
+default_bash_dir=~/<lokasiAlias>
+source $default_bash_dir/init.sh 
 ```
 
 

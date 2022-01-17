@@ -3,7 +3,6 @@
 alias gbf='
 gb develop
 gb hotfix
-gb post
 '
 #git flow start
 gfs () {
@@ -43,4 +42,3 @@ gm develop
 # update repo && gm
 alias gurm='gf && gm'
 
-# ganti gitflow

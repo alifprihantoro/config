@@ -1,4 +1,4 @@
-# ===== Git bassic
+#q ===== Git bassic
 ## help
 - gha : helpauto
 - ghf : help for gitflow

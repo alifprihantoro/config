@@ -9,8 +9,7 @@ alias lal='ls -al'
 alias ll='ls -l' 
 alias rm='rm -rf' 
 alias cp='cp -rf'
-alias cc='clear && source ~/../usr/etc/profile'
-alias pkg='pkg update && pkg'
+alias cc='clear && source ~/../usr/etc/profile && source ~/.bashrc'
 alias cha='chmod 777'
 alias ucha='chmod -777'
 alias chn='chmod 700'
@@ -19,15 +18,16 @@ alias tc='touch'
 alias echo='shopt -s xpg_echo && echo'
 alias q='exit -y'
 alias ..='cd ..'
-alias pbcopy='termux-clipboard-set'
-alias pbpaste='$(termux-clipboard-get)'
-alias cf='cd_w_fzf=$(find * -type d | fzf)
-while [ "$cd_w_fzf" != "" ]
-do 
-cd $cd_w_fzf
-break
-done
-'
 alias w='cd $de/vimwiki
 v index.md'
 #alias ubun='~/ubuntu/./su.sh'
+
+alias portrait='
+rm ~/.termux/termux.properties
+cp ~/.termux/portrait ~/.termux/termux.properties
+'
+
+alias landscape='
+rm ~/.termux/termux.properties
+cp ~/.termux/landscape ~/.termux/termux.properties
+'

@@ -1,4 +1,7 @@
 # My Git Flow 
+
+Untuk menggunkannya ada 2 pilihan yaitu menuliskan secara manual pada file [ini](https://github.com/alifmuryp/config/tree/master/bash/alias/app/git) ke dotfile kalian. Atau kalian bisa install keseluruhan seperti [ini](https://github.com/alifmuryp/config/blob/master/bash/alias/README.md) 
+
 ## Start
 ### Clone & remote
 - gcl = for clone repo
@@ -13,16 +16,6 @@
 ### Pull & Request
 
 ## other alias
-
-## 
-
-
-
-
-
-
-
-
 ## ======== Tutor Singkat untuk memulai
 - git clone <url>
 #email global

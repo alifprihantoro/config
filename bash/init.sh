@@ -1,6 +1,6 @@
 ## source it from ~/.bashrc or ~/.bash_profile ##
-source ~/../usr/etc/profile.d/bash_completion.sh
-default_bash_dir=~/storage/external-1/config/bash
+# source ~/../usr/etc/profile.d/bash_completion.sh
+default_bash_dir=~/.config/bash
 ## my alias
 source $default_bash_dir/theme.sh
 # dir
@@ -14,9 +14,12 @@ for sumber_completion in $default_bash_dir/completions/*.sh; do
   source $sumber_completion
 done
 
+# muryp
+source $dw/muryp-new/build/dir.sh
+source $dmb/alias.sh
+
 # fzf end
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-c
 
 # tmux source
 # if [[$TMUX]]; then source $default_bash_dir/../tmux/tmux-git.sh; fi

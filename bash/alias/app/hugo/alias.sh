@@ -1,6 +1,6 @@
 #getHugo="source $getAlias/gohugo/"
 ## ====== hugo pribadi
-alias st='hugo server --minify'
+alias st='hugo server --minify --noHTTPCache'
 #alias buka='$getHugo/hugoTambah.sh && nano content/$file/$url.md' #img
 #alias add='$getHugo/hugoTambah.sh' #img
 #alias Ganti='$getHugo/hugoTambah.sh' #all
@@ -21,33 +21,57 @@ alias addblog='mury hugo new blog/'
 ## NB : rm deploy-muryp
 ## auto deploy all
 alias onmuryp='
-dm
+dmn
 mv static .static
-dmtpmh
+dmntpmh
 rm head.html
 cp .online head.html
-dmk
+dmnk
 rm params.toml
 cp .online params.toml
-dm
+dmn
 hugo --minify 
+
+#rm public deploy
 rm  $dmd/public
+# mv public ke deploy
 mv public $dmd
+
+# static back
 mv .static static
-dmtpmh
+
+# ganti head offline
+dmntpmh
 rm head.html
 cp .offline head.html
-dmk
+
+# ganti params offline
+dmnk
 rm params.toml
 cp .offline params.toml
+
+# push deploy
 dmd
 gsva && gu
-dmtps
-cp css js $dms
-dms
+
+# delete static
+dmnss
+rm css js
+
+# cp static
+dmntps
+cp css js $dmnss
+
+# upload
+dmnss
 gsva && gu
-dmi
+
+#img upload
+dmnsi
 gsva && gu
+
+# back
+dmn
 '
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'

@@ -1,7 +1,7 @@
 dr=~/
 zzz=~/zzz
-dc=~/.config
+dc=~/.myconf
 db=$dc/bash
-dv=$dc/nvim
+dv=~/.config/nvim
 ssh=$de/.ssh
 dw=$zzz/web

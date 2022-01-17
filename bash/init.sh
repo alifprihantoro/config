@@ -21,6 +21,10 @@ source $dmb/alias.sh
 # fzf end
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+
+
+
+
 # tmux source
 # if [[$TMUX]]; then source $default_bash_dir/../tmux/tmux-git.sh; fi
 

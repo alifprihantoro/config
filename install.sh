@@ -23,8 +23,8 @@ source /data/data/com.termux/files/home/.myconf/bash/completions/hugo.sh
 source /data/data/com.termux/files/home/.myconf/bash/completions/makefile.completion.sh
 source /data/data/com.termux/files/home/.myconf/bash/completions/system.completion.sh
 source /data/data/com.termux/files/home/.myconf/bash/termux/clipboard.sh
-source /data/data/com.termux/files/home/.myconf/bash/ubuntu/dir.sh
-source /data/data/com.termux/files/home/.myconf/bash/ubuntu/var.sh
+# source /data/data/com.termux/files/home/.myconf/bash/ubuntu/dir.sh
+# source /data/data/com.termux/files/home/.myconf/bash/ubuntu/var.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/autossh.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/bassic.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/commit.sh

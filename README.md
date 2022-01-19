@@ -1,7 +1,10 @@
-> WARNING : configuration ini sedang dalam perkembangan, silahkan koreksi apa saja yang tidak kalian butuhkan. Dan juga pastikan bahwa alias ini tidak berbenturan dengan alias lainnya yang kalian miliki.
+# My Configuration for cli
+## what app I use
+- tmux
+- vim/nvim
+- nodejs
+- etc
 
-# config
-my configuration. by muryp
 ## How install
 ```bash
 mkdir .myconf

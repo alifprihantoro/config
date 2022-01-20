@@ -1,3 +1,14 @@
+# Vim command important
+Vim is a text editor based on cli.
+
+
+
+
+
+
+
+
+
 # miiain
 - d : cut
 - p : pastei

@@ -1,12 +1,12 @@
-dr=~/
+# dr=~/
 zzz=$dr/zzz
-dc=~/.myconf
+dc=$dr/.myconf
 db=$dc/bash
-dv=~/.config/nvim
-dssh=$dr/.ssh
+dv=$dr.config/nvim
+dssh=$dr.ssh
 dw=$zzz/web
-dvc=$dr/.config/plugin/nvim-conf
-dvp=$dr/.config/plugin
+dvc=$dr.config/plugin/nvim-conf
+dvp=$dr.config/plugin
 
 alias dr='cd $dr'
 alias zzz='cd $zzz'

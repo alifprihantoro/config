@@ -20,6 +20,11 @@ alias q='exit -y'
 alias ..='cd ..'
 alias w='cd $de/vimwiki
 v index.md'
+# change dir with save dir before
+d (){
+prev_dir=$(pwd)
+cd $1
+}
 #alias ubun='~/ubuntu/./su.sh'
 
 alias portrait='

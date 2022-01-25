@@ -13,8 +13,8 @@ alias dwp='cd $wp'
 alias wl='dwl
 v index.wiki
 '
-alias w1='dwd
-v index.wiki
+alias w1='
+v $dr/wiki/development/index.wiki
 '
 alias w2='dwdo
 v index.wiki

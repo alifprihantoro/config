@@ -1,8 +1,8 @@
+TERM=xterm-256color
 #_________start git
 source /data/data/com.termux/files/home/.myconf/alias/bassic.sh
 source /data/data/com.termux/files/home/.myconf/bash/theme.sh
-source /data/data/com.termux/files/home/.myconf/dir/backward.sh
-source /data/data/com.termux/files/home/.myconf/dir/forwad.sh
+source /data/data/com.termux/files/home/.myconf/dir/undo.sh
 source /data/data/com.termux/files/home/.myconf/dir/variable.sh
 source /data/data/com.termux/files/home/.myconf/fzf/cp.sh
 source /data/data/com.termux/files/home/.myconf/fzf/dir.sh

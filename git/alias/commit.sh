@@ -33,3 +33,14 @@ msg="Update on $(date)"
 gcm "$msg"
 break
 done'
+# amend
+alias gsvm='
+ga .
+statusCommit=$(git status -s)
+while [ "$statusCommit" != "" ]
+do 
+echo "kamu juga belum melakukan commit pada : \\n $statusCommit"
+read -p "Your Message : " msg
+git commit --amend "$msg"
+break
+done'

@@ -16,3 +16,19 @@ dmtss1
 # dmtsj1
 hugo --minify
 '
+
+# my dev
+alias dev='
+cdg
+source app/dev.sh
+'
+# my dev stop
+alias stop='
+cdg
+source app/stop.sh
+'
+# my prod
+alias dev='
+cdg
+source app/prod.sh
+'

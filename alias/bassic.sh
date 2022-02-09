@@ -15,7 +15,7 @@ alias ucha='chmod -777'
 alias chn='chmod 700'
 alias uchn='chmod -700'
 alias tc='touch'
-alias echo='shopt -s xpg_echo && echo'
+# alias echo='shopt -s xpg_echo && echo'
 alias q='exit -y'
 alias w='cd $de/vimwiki
 v index.md'

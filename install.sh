@@ -2,7 +2,6 @@ autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
 #_________start git
 source /data/data/com.termux/files/home/.myconf/alias/bassic.sh
-# source /data/data/com.termux/files/home/.myconf/bash/theme.sh
 source /data/data/com.termux/files/home/.myconf/dir/bassic.sh
 source /data/data/com.termux/files/home/.myconf/dir/git.sh
 source /data/data/com.termux/files/home/.myconf/dir/undo.sh
@@ -17,15 +16,7 @@ source /data/data/com.termux/files/home/.myconf/web_alias/muryp.sh
 source /data/data/com.termux/files/home/.myconf/alias/auto/a.scss.sh
 source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/chmod.aliases.sh
 source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/general.aliases.sh
-# source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/git.plugin.sh
 source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/ls.aliases.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/defaults.completion.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/dirs.completion.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/git.completion.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/git.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/hugo.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/makefile.completion.sh
-source /data/data/com.termux/files/home/.myconf/bash/completions/system.completion.sh
 source /data/data/com.termux/files/home/.myconf/bash/termux/clipboard.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/autossh.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/bassic.sh

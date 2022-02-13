@@ -1,4 +1,4 @@
-alias ..='cd ../'
+# alias ..='cd ../'
 cdb(){
 cd ../$1
 }

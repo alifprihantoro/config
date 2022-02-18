@@ -1,10 +1,16 @@
-alias vf='vim_w_fzf=$(fzf)
+# func fuzzy 
+FILEFUZZY(){
+vim_w_fzf=$(fzf)
 while [ "$vim_w_fzf" != "" ]
 do 
-nvim $vim_w_fzf
+$1 $vim_w_fzf
 break
 done
-'
+}
+# lvim
+alias vf='FILEFUZZY lvim'
+# nvim
+alias nvf='FILEFUZZY nvim'
 vfb (){
 vim_w_fzf=$(find *.$1 -type f | fzf > selected)
 while [ "$vim_w_fzf" != "" ]

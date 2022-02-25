@@ -8,9 +8,11 @@ break
 done
 }
 # lvim
-alias vf='FILEFUZZY lvim'
+alias vf='FILEFUZZY nvim'
 # nvim
 alias nvf='FILEFUZZY nvim'
+# nvim
+alias lvf='FILEFUZZY nvim'
 vfb (){
 vim_w_fzf=$(find *.$1 -type f | fzf > selected)
 while [ "$vim_w_fzf" != "" ]

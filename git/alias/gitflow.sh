@@ -8,7 +8,7 @@ gb hotfix
 alias gfs='
 thisBranchName=$(gb)
 deleteStar=$thisBranchName:s/*/\ 
-gc $(echo $deleteStar:s/^\ \ / | FZF)
+gc $(echo $deleteStar:s/^\ \ / | fzf)
 '
 # for start fiture use gfs
 #git end fitur

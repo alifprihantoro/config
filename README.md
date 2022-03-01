@@ -1,8 +1,10 @@
 # My Configuration for cli
 ## what app I use
 - tmux
-- vim/nvim
+- vim/neovim
 - nodejs
+- fzf
+- zsh shell (now)
 - etc
 
 ## How install
@@ -14,4 +16,4 @@ echo "
 source ~/.myconf/install.sh
 " >> ~/.bashrc
 ```
-
+echo "bla\n bla\n bla" | fzf

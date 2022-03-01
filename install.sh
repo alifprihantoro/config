@@ -1,5 +1,3 @@
-autoload -U +X compinit && compinit
-autoload -U +X bashcompinit && bashcompinit
 #_________start git
 source /data/data/com.termux/files/home/.myconf/alias/bassic.sh
 source /data/data/com.termux/files/home/.myconf/dir/bassic.sh
@@ -10,13 +8,14 @@ source /data/data/com.termux/files/home/.myconf/fzf/cp.sh
 source /data/data/com.termux/files/home/.myconf/fzf/dir.sh
 source /data/data/com.termux/files/home/.myconf/fzf/mv.sh
 source /data/data/com.termux/files/home/.myconf/fzf/rm.sh
+source /data/data/com.termux/files/home/.myconf/fzf/style.sh
 source /data/data/com.termux/files/home/.myconf/fzf/vim.sh
+source /data/data/com.termux/files/home/.myconf/web/beta.sh
+source /data/data/com.termux/files/home/.myconf/web/serabi.sh
+source /data/data/com.termux/files/home/.myconf/web/studio.sh
 source /data/data/com.termux/files/home/.myconf/web_alias/alias.sh
 source /data/data/com.termux/files/home/.myconf/web_alias/muryp.sh
 source /data/data/com.termux/files/home/.myconf/alias/auto/a.scss.sh
-source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/chmod.aliases.sh
-source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/general.aliases.sh
-source /data/data/com.termux/files/home/.myconf/alias/oh_my_bash/ls.aliases.sh
 source /data/data/com.termux/files/home/.myconf/bash/termux/clipboard.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/autossh.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/bassic.sh
@@ -40,5 +39,4 @@ source /data/data/com.termux/files/home/.myconf/alias/app/termux/bassic.sh
 source /data/data/com.termux/files/home/.myconf/alias/app/termux/os.sh
 source /data/data/com.termux/files/home/.myconf/alias/app/vim/bassic.sh
 source /data/data/com.termux/files/home/.myconf/alias/app/vim/vimwiki.sh
-source /data/data/com.termux/files/home/.myconf/linux.sh
 #_________start git

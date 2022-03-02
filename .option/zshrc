@@ -26,6 +26,21 @@ source $MYZSHPLUG/powerlevel10k/powerlevel10k.zsh-theme
 source $MYZSHPLUG/.p10k.zsh
 source $MYZSHPLUG/zsh-vi-mode.plugin.zsh
 source $MYZSHPLUG/zsh-syntax-highlighting.zsh
+source $MYZSHPLUG/autopair.zsh
+
+# auto pair
+AUTOPAIR_LBOUNDS=(all '[.:/\!]')
+AUTOPAIR_LBOUNDS+=(quotes '[]})a-zA-Z0-9]')
+AUTOPAIR_LBOUNDS+=(spaces '[^{([]')
+AUTOPAIR_LBOUNDS+=(braces '')
+AUTOPAIR_LBOUNDS+=('`' '`')
+AUTOPAIR_LBOUNDS+=('"' '"')
+AUTOPAIR_LBOUNDS+=("'" "'")
+
+AUTOPAIR_RBOUNDS=(all '[[{(<,.:?/%$!a-zA-Z0-9]')
+AUTOPAIR_RBOUNDS+=(quotes '[a-zA-Z0-9]')
+AUTOPAIR_RBOUNDS+=(spaces '[^]})]')
+AUTOPAIR_RBOUNDS+=(braces '')
 
 # zsh autocomplete
 # source $MYZSHPLUG/zsh-autosuggestions.zsh

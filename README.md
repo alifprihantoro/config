@@ -12,7 +12,7 @@
 
 ## How install
 ```bash
-pkg update -y && pkg upgrade -y && pkg install git wget neovim zsh lsd fzf tmux nodejs ripgrep termux-api -y
+pkg update -y && pkg upgrade -y && pkg install git wget openssh neovim zsh lsd fzf tmux nodejs ripgrep termux-api -y
 mkdir .myconf
 git clone https://github.com/alifprihantoro/config
 mv config/* .myconf
@@ -23,11 +23,14 @@ source ~/.myconf/install.sh
 $ZSHCONF=$dr/.myconf/.option/.zshrc
 source $ZSHCONF
 clear
-" >> ~/../usr/etc/profile
+" > ~/../usr/etc/profile
 echo "
 source ~/.myconf/tmux/blue.tmuxtheme
 source ~/.myconf/tmux/tmux.config
-" >> ~/.tmux.conf
+" > ~/.tmux.conf
+echo "
+source $dr/.myconf/.option/zshrc
+" > ~/.zshrc
 ```
 echo "bla\n bla\n bla" | fzf
 > use termux style apk, termux api

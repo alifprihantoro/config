@@ -39,4 +39,5 @@ source /data/data/com.termux/files/home/.myconf/alias/app/termux/bassic.sh
 source /data/data/com.termux/files/home/.myconf/alias/app/termux/os.sh
 source /data/data/com.termux/files/home/.myconf/alias/app/vim/bassic.sh
 source /data/data/com.termux/files/home/.myconf/alias/app/vim/vimwiki.sh
+source /data/data/com.termux/files/home/.myconf/bash/theme.sh
 #_________start git

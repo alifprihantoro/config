@@ -14,23 +14,25 @@
 ```bash
 pkg update -y && pkg upgrade -y && pkg install git wget openssh neovim zsh lsd fzf tmux nodejs ripgrep termux-api -y
 mkdir .myconf
+dr=~/
 git clone https://github.com/alifprihantoro/config
-mv config/* .myconf
+mv config/* $dr/.myconf
 echo "
 clear
 dr=~/
-source ~/.myconf/install.sh
+source $dr/.myconf/install.sh
 $ZSHCONF=$dr/.myconf/.option/.zshrc
 source $ZSHCONF
 clear
 " > ~/../usr/etc/profile
 echo "
-source ~/.myconf/tmux/blue.tmuxtheme
-source ~/.myconf/tmux/tmux.config
+source $dr/.myconf/tmux/blue.tmuxtheme
+source $dr/.myconf/tmux/tmux.config
 " > ~/.tmux.conf
 echo "
 source $dr/.myconf/.option/zshrc
 " > ~/.zshrc
+cp $dr/.myconf/.option/termux.properties ~/.termux/
 ```
 echo "bla\n bla\n bla" | fzf
 > use termux style apk, termux api

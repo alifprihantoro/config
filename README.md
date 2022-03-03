@@ -1,12 +1,19 @@
 # My Configuration for cli
 ## what app I use
+- termux
+- termux api
+- termux style
+- anysoftkeyboard
+- andronix
+- vncviewer
+## what my termux app 
 - tmux
 - vim/neovim
 - nodejs
 - fzf
 - zsh shell (now)
 - etc
-## myfont
+## styling
 - firacode
 - colorscheme base 16 3024 dark
 
@@ -34,5 +41,3 @@ source $dr/.myconf/.option/zshrc
 " > ~/.zshrc
 cp $dr/.myconf/.option/termux.properties ~/.termux/
 ```
-echo "bla\n bla\n bla" | fzf
-> use termux style apk, termux api

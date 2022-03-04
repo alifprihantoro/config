@@ -43,6 +43,5 @@ AUTOPAIR_RBOUNDS+=(spaces '[^]})]')
 AUTOPAIR_RBOUNDS+=(braces '')
 
 # zsh autocomplete
-# source $MYZSHPLUG/zsh-autosuggestions.zsh
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
-# bindkey '^ ' autosuggest-accept
+source $MYZSHPLUG/zsh-autosuggestions.zsh
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=darkblue,bold,underline"

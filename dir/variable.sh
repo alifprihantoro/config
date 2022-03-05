@@ -1,10 +1,10 @@
 # dr=~/
-zzz=$dr/zzz
+# zzz=$dr/zzz
 dc=$dr/.myconf
-db=$dc/bash
+# db=$dc/bash
 dv=$dr.config/nvim
 dssh=$dr.ssh
-dw=$zzz/web
+dw=$dr/web
 dvc=$dr.config/plugin/nvim-conf
 dvp=$dr.config/plugin
 

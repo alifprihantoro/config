@@ -16,10 +16,10 @@
 ## styling
 - firacode
 - colorscheme base 16 3024 dark
-
+ 
 ## How install
 ```bash
-pkg update -y && pkg upgrade -y && pkg install git wget openssh neovim zsh lsd fzf tmux nodejs ripgrep termux-api -y
+pkg update -y && pkg upgrade -y && pkg install git wget openssh neovim zsh lsd fzf tmux nodejs ripgrep termux-api bat -y
 mkdir .myconf
 dr=~/
 git clone https://github.com/alifprihantoro/config

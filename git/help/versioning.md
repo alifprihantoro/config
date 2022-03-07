@@ -1,6 +1,6 @@
 # tag versioning
 auto :
-- `gavp <option:mu|mi|pa> <comment>` auto tag plus 1 with comment (ma = major, mi = minor, pa = path)
+- `gavp <option:ma|mi|pa> <comment>` auto tag plus 1 with comment (ma = major, mi = minor, pa = path)
 - `gavc <ver> <comment>` auto tag with comment
 -
 original :

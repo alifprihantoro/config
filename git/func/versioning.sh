@@ -1,4 +1,7 @@
 gavp(){
+# commit
+gsv $2
+# get lates version
 gtvf
 comment=$2
 if [ $1 = 'ma' ]
@@ -16,22 +19,20 @@ then
   ver=v$ma.$mi.$((pa+1))
   tag_auto_info
 fi
-# commit
-gsv2 $2
 # push
 gap
 gpt
 }
 
 gavc(){
+  # commit
+gsv $2
   # what versioning/ketik
 ver=$1
   # comment
 comment=$2
 echo "$ver $comment"
 gtadd
-  # commit
-gsv2 $2
   # push
 gap
 gpt

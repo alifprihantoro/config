@@ -1,5 +1,6 @@
 #_________start git
 source /data/data/com.termux/files/home/.myconf/alias/bassic.sh
+source /data/data/com.termux/files/home/.myconf/linux.sh
 source /data/data/com.termux/files/home/.myconf/dir/bassic.sh
 source /data/data/com.termux/files/home/.myconf/dir/git.sh
 source /data/data/com.termux/files/home/.myconf/dir/undo.sh

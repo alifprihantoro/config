@@ -3,7 +3,7 @@ dr=/data/data/com.termux/files/home/
 source $dr.myconf/install.sh
 source $dr/.myconf/.option/zshrc
 
-alias sta='vncserver'
+alias sta='vncserver -geometry 1560x720'
 alias sto='vncserver -kill :1'
 alias FZF="
     find . -type f -not -path '*/\.git/*' ! -path '*/\node_modules/*' | fzf --height 90% --layout reverse --info inline \

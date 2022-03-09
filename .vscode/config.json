@@ -1,0 +1,49 @@
+{
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 2,
+    "workbench.statusBar.visible": false,
+    "vim.argumentObjectClosingDelimiters": [
+        ")",
+        "]",
+        "'",
+        "\"",
+        "}"
+    ],
+    "vim.argumentObjectOpeningDelimiters": [
+        "(",
+        "[",
+        "'",
+        "\"",
+        "{"
+    ],
+    "vim.timeout": 300,
+    "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-b>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-x>": false
+  },
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.fontFamily": "'Fira Code'",
+"editor.fontLigatures": true,
+"vim.vimrc.enable": true,
+"vim.vimrc.path": "/data/data/com.termux/files/home/.myconf/.vscode/.vimrc",
+"window.menuBarVisibility": "toggle"
+}

@@ -6,9 +6,11 @@ gb hotfix
 '
 #git flow start
 alias gfs='
+owhbrnch=$(git symbolic-ref --short HEAD)
 thisBranchName=$(gb)
 deleteStar=$thisBranchName:s/*/\ 
 gc $(echo $deleteStar:s/^\ \ / | fzf)
+gm $owhbrnch
 '
 # for start fiture use gfs
 #git end fitur

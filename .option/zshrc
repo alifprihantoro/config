@@ -1,3 +1,4 @@
+source ~/.myconf/install.sh
 # for change dir whitout cd
 setopt auto_cd
 # autocomplete

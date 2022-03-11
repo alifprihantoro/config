@@ -2,5 +2,5 @@
 alias gssh='
 echo "add ssh"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/github
-ssh-add ~/.ssh/gitlab'
+ssh-add ~/.ssh/github'
+# ssh-add ~/.ssh/gitlab

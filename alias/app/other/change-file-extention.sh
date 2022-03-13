@@ -1,4 +1,5 @@
-alias change-file='for f in *.md; do 
-    mv -- "$f" "${f%.md}.wiki"
-done
-'
+function changeFile(){
+  for f in $(find ~/.myconf/**/*.wiki); do 
+    mv $f $(echo $f | sed -e 's/\.wiki//g').md
+  done
+}

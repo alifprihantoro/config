@@ -46,3 +46,5 @@ AUTOPAIR_RBOUNDS+=(braces '')
 # zsh autocomplete
 source $MYZSHPLUG/zsh-autosuggestions.zsh
 # ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=darkblue,bold,underline"
+
+alias u='~/openbox/start-ubuntu20.sh'

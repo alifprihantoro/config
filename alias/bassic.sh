@@ -1,4 +1,6 @@
 ## ======= bassic
+alias mkdir='/bin/mkdir -p'
+alias rm='/bin/rm -rf'
 alias aliashelp='cat $default_bash_dir/alias/help.txt'
 alias hssh='cat $db/help/SSH.md'
 alias htmux='cat $db/help/tmux.md'

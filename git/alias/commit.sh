@@ -25,10 +25,10 @@ do
 
   break
 done
+gap
 '
 function gsp(){
 MYGSV
-GAP
 }
 
 function gsv(){

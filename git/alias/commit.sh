@@ -26,7 +26,7 @@ do
   break
 done
 '
-gsp(){
+function gsp(){
 MYGSV
 gap
 }

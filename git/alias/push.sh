@@ -1,7 +1,7 @@
 # push
 alias gp='git push'
 # push all branch and remote
-alias gap='
+alias GAP='
 DIRNOW=$(pwd)
 gssh
 git remote | xargs -L1 git push --all

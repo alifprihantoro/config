@@ -28,7 +28,7 @@ done
 '
 function gsp(){
 MYGSV
-gap
+GAP
 }
 
 function gsv(){

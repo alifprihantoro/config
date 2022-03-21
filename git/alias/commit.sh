@@ -12,8 +12,9 @@ alias gcm='git commit -am'
 # gcm "$msg"
 # break
 # done'
-
-function gsv(){
+alias MYGSV='
+DIRNOW=$(pwd)
+cdg
 ga .
 statusCommit=$(git status -s)
 while [ "$statusCommit" != "" ]
@@ -24,6 +25,15 @@ do
 
   break
 done
+'
+gsp(){
+MYGSV
+gap
+}
+
+function gsv(){
+MYGSV
+cd $DIRNOW
 }
 
 # auto commit

@@ -1,12 +1,12 @@
 # push
 alias gp='git push'
 # push all branch and remote
-alias gap='
-DIRNOW=$(pwd)
+function gsp(){
+MYGSV
 gssh
 git remote | xargs -L1 git push --all
 cd $DIRNOW
-'
+}
 # git upload
 alias gu='
 gssh

@@ -25,11 +25,7 @@ do
 
   break
 done
-gap
 '
-function gsp(){
-MYGSV
-}
 
 function gsv(){
 MYGSV

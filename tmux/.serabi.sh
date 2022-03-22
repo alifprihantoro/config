@@ -12,4 +12,4 @@ tmux new-session  \; \
 	send-keys 'v' C-m  \; \
 	new-window  \; \
 	rename-window 'cheklist'  \; \
-	send-keys 'w1' C-m \;
+	send-keys 'v ./checklist.md' C-m \;

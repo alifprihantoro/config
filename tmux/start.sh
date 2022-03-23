@@ -1,7 +1,7 @@
-alias stserabi='
+alias tmuxs='
 dw
 cd serabi-v3
 source $dc/tmux/.serabi.sh'
-alias stcompile='
-source $dc/tmux/compile.sh
+alias tmuxu='
+source $dc/tmux/.ubuntu.sh
 '

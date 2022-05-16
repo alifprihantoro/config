@@ -31,6 +31,7 @@ source /data/data/com.termux/files/home/.myconf/git/alias/gitflow.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/help.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/push.sh
 source /data/data/com.termux/files/home/.myconf/git/alias/versioning.sh
+source /data/data/com.termux/files/home/.myconf/git/alias/gh-issue.sh
 source /data/data/com.termux/files/home/.myconf/git/func/fetch-pull.sh
 source /data/data/com.termux/files/home/.myconf/git/func/versioning.sh
 source /data/data/com.termux/files/home/.myconf/tmux/start.sh

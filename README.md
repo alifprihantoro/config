@@ -12,6 +12,7 @@
 - nodejs
 - fzf
 - zsh shell (now)
+- github cli
 - etc
 ## styling
 - firacode
@@ -19,7 +20,7 @@
  
 ## How install
 ```bash
-pkg update -y && pkg upgrade -y && pkg install git wget openssh neovim zsh lsd fzf tmux nodejs ripgrep termux-api bat hugo -y
+pkg update -y && pkg upgrade -y && pkg install gh git wget openssh neovim zsh lsd fzf tmux nodejs ripgrep termux-api bat hugo -y
 mkdir .myconf
 dr=~/
 git clone https://github.com/alifprihantoro/config

@@ -13,8 +13,7 @@ tmux new-session  \; \
 	rename-window 'home'  \; \
 	send-keys 'v' C-m  \; \
 	new-window  \; \
-	rename-window 'cheklist'  \; \
-	send-keys 'v ./roadmap/roadmap.md' C-m \; \
+	rename-window 'issue'  \; \
 	new-window  \; \
 	send-keys 'yarn go' C-m \; \
 	rename-window 'compile' \; \

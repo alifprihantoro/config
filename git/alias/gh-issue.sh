@@ -11,3 +11,6 @@ function ghiv(){
   LISTGITHUBISSUE=$(gh issue list | fzf --preview "gh issue view {+1}" | awk '{print $1}')
   gh issue view $LISTGITHUBISSUE --comments
 }
+function ghia(){
+  gh issue create
+}

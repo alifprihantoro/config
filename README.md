@@ -42,3 +42,10 @@ source $dr/.myconf/.option/zshrc
 " > ~/.zshrc
 cp $dr/.myconf/.option/termux.properties ~/.termux/
 ```
+
+- ctags make
+```bash
+pkg install ctags
+# kalo gak bisa pakek dibawah
+pkg install make autoconf pkg-config automake
+```

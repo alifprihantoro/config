@@ -1,3 +1,11 @@
+[home](home)
+[auto](auto)
+[bassic](bassic)
+[commit push](commit-push)
+[flow](flow)
+[important](important)
+[README](README)
+[versioning](versioning)
 # Penggunaan git fetch dan pull
 - `gaf <remote> <branch>` untuk auto fetch and merge
 - `gafp <remote> <branch>` untuk auto fetch, merge, dan push

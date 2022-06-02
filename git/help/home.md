@@ -1,0 +1,8 @@
+[auto](auto)
+[bassic](bassic)
+[commit push](commit-push)
+[fetch pull](fetch-pull) (issue merge konflik)
+[flow](flow)
+[important](important)
+[README](README)
+[versioning](versioning)

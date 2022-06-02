@@ -1,3 +1,11 @@
+[home](home)
+[auto](auto)
+[commit push](commit-push)
+[fetch pull](fetch-pull)
+[flow](flow)
+[important](important)
+[README](README)
+[versioning](versioning)
 #q ===== Git bassic
 ## help
 - gha : helpauto

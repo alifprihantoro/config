@@ -23,6 +23,11 @@ alias gcol='git config --list'
 ## status____________________
 alias gs='git status'
 alias gc='git checkout'
+alias gcf='
+thisBranchName=$(gb)
+deleteStar=$thisBranchName:s/*/\ 
+gc $(echo $deleteStar:s/^\ \ / | fzf)
+'
 alias gm='git merge'
 alias gf='git fetch'
 

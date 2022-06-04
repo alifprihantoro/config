@@ -15,5 +15,5 @@ tmux new-session  \; \
 	new-window  \; \
 	rename-window 'issue'  \; \
 	new-window  \; \
-	send-keys 'yarn go' C-m \; \
+	send-keys 'yarn dev' C-m \; \
 	rename-window 'compile' \; \

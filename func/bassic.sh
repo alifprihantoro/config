@@ -16,12 +16,12 @@ function cd (){
   /bin/cd $1
 }
 # go undo dir
-function cu (){
+function cdu (){
   prev_dir2=$(pwd)
   cd $prev_dir
 }
 # go redo dir
-function cr (){
+function cdr (){
   prev_dir=$(pwd)
   cd $prev_dir2
 }

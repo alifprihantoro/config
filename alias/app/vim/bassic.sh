@@ -12,3 +12,5 @@ alias vn='nvim'
 alias vmd='nvim'
 # plug min
 alias vm='nvim'
+# Help
+alias vhelp='vmd $dc/alias/app/vim/help.md'

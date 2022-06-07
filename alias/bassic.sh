@@ -20,3 +20,4 @@ alias q='exit -y'
 alias w='cd $de/vimwiki
 v index.md'
 #alias ubun='~/ubuntu/./su.sh'
+alias cdr='cd -'

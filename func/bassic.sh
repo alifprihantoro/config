@@ -10,3 +10,18 @@ function cp(){
   mkdir $last
   /bin/cp $@
 }
+# go dir
+function cd (){
+  prev_dir=$(pwd)
+  /bin/cd $1
+}
+# go undo dir
+function cu (){
+  prev_dir2=$(pwd)
+  cd $prev_dir
+}
+# go redo dir
+function cr (){
+  prev_dir=$(pwd)
+  cd $prev_dir2
+}

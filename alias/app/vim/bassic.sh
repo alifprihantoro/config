@@ -1,16 +1,13 @@
 # show file buffer
 #alias delvs='ls .*.swk *.swk .swk *.swl *.swl .swl .*.swm *.swm .swm .*.swn *.swn .swn .*.swo *.swo .swo .*.swp *.swp .swp'
+PATH_PLUG_VIM=~/.config/plugin/nvim-conf/conf
 # full
-alias v='nvim'
+alias v='nvim -u $PATH_PLUG_VIM/full/init.vim'
 # hugo theme/html
-alias vh='nvim'
+alias vh='nvim -u $PATH_PLUG_VIM/html/init.vim'
 # style
-alias vh='nvim'
+alias vs='nvim -u $PATH_PLUG_VIM/style/init.vim'
 # next/react/js/ts
-alias vn='nvim'
+alias vj='nvim -u $PATH_PLUG_VIM/js/init.vim'
 # markdown/hugo
-alias vmd='nvim'
-# plug min
-alias vm='nvim'
-# Help
-alias vhelp='vmd $dc/alias/app/vim/help.md'
+alias vm='nvim -u $PATH_PLUG_VIM/md/init.vim'

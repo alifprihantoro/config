@@ -1,8 +1,17 @@
 dr=~/
 cd $dr.myconf/
-echo "#_________start git" >> $dr.myconf/install.zsh
+
+
 for sumber_dir in $(find **/*.sh -type f -not -path 'bash/*' ! -path "*/ubuntu*" ! -path "web*" ! -path "*/oh_my_bash/*"); do
-  echo "source $dr.myconf/$sumber_dir" >> $dr.myconf/install.zsh
+  source $dr.myconf/$sumber_dir
 done
 
-echo "#_________start git" >> $dr.myconf/install.zsh
+
+
+
+# echo "#_________start git" >> $dr.myconf/install.zsh
+# for sumber_dir in $(find **/*.sh -type f -not -path 'bash/*' ! -path "*/ubuntu*" ! -path "web*" ! -path "*/oh_my_bash/*"); do
+#   echo "source $dr.myconf/$sumber_dir" >> $dr.myconf/install.zsh
+# done
+#
+# echo "#_________start git" >> $dr.myconf/install.zsh

@@ -20,8 +20,3 @@ alias q='exit -y'
 alias w='cd $de/vimwiki
 v index.md'
 #alias ubun='~/ubuntu/./su.sh'
-function mv(){
-  for last; do true; done
-  echo $last
-  echo $1
-}

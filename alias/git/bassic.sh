@@ -1,6 +1,6 @@
 # ===== Git bassic
 #help
-alias ghelp='vl ~/.myconf/git/help/home.md'
+alias ghelp='vmd ~/.myconf/help/git/home.md'
 #init
 alias gi='git init'
 # rebase

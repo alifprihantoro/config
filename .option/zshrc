@@ -1,4 +1,4 @@
-source $dr.myconf/install.zsh
+source $dr.myconf/app.zsh
 # for change dir whitout cd
 setopt auto_cd
 # autocomplete

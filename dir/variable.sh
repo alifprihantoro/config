@@ -1,6 +1,4 @@
-# dr=~/
-# zzz=$dr/zzz
-dc=$dr/.myconf
+zzz=$dr/zzz
 # db=$dc/bash
 dssh=$dr.ssh
 dw=$dr/web

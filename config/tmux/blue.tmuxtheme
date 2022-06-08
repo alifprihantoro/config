@@ -159,3 +159,4 @@ set -gwF window-status-current-style "fg=#{@theme-window-status-current-fg},bg=#
 set -gwF window-status-format "#{@theme-window-status-format}"
 set -gwF window-status-separator "#{@theme-window-status-separator}"
 
+set -g default-terminal "screen-256color"

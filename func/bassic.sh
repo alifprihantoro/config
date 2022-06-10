@@ -1,12 +1,12 @@
 # move
-function mv(){
+function mvd(){
   for last; do true; done
   mkdir $last
-  ~/../usr/bin/mv $@
+  mv $@
 }
 # copy
-function cp(){
+function cpd(){
   for last; do true; done
   mkdir $last
-  ~/../usr/bin/cp $@
+  cp $@
 }
